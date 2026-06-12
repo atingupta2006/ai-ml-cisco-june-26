@@ -7,7 +7,8 @@
 1. [Student quick start](docs/student-quick-start.md) — run **`setup_student_env`** once
 2. [Lab execution guide](docs/lab-execution-guide.md) — kernel **Python (cisco-aiml-lab)**
 3. [Troubleshooting](docs/student-troubleshooting.md)
-4. [Day 01 labs](hands-on/day-01/README.md)
+4. [Course topic checklist](docs/course-topic-checklist.md) — syllabus coverage map
+5. [Day 01 labs](hands-on/day-01/README.md)
 
 ## Repository layout
 

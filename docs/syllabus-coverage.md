@@ -1,6 +1,7 @@
 # Syllabus coverage
 
-Maps [course-content.txt](../../course-content.txt) topics to training days.
+Maps [course-content.txt](../../course-content.txt) topics to training days.  
+For a **line-by-line checklist** of every syllabus bullet, see [course-topic-checklist.md](course-topic-checklist.md).
 
 | Topic pillar | Days | Kaggle / data |
 |--------------|------|----------------|
