@@ -43,7 +43,7 @@ Day 1 Labs 1, 2, and 5 are discussion worksheets — kernel optional until you r
 2. Read `README.md` then `labs.md`.
 3. Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01` … `lab06`).
 4. Compare outputs to **Example result** and **Success criteria** in each lab.
-5. Optional stretch work (when available): `notebooks-extra/` — not required for class.
+5. Want more? Ask your instructor for optional stretch material (not in this repo).
 
 ---
 

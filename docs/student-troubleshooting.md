@@ -35,9 +35,9 @@ python -m ipykernel install --user --name cisco-aiml-lab --display-name "Python 
 | 04 | MLflow UI won’t open | See [mlflow-ui-demo-setup.md](mlflow-ui-demo-setup.md) |
 | 05 | “500 rows” vs 25 symbols | Labs cluster **25 symbols** (aggregated features) |
 
-## Optional extras
+## Optional stretch material
 
-Stretch notebooks (when published) live in `hands-on/day-NN/notebooks-extra/` — not required for class.
+Not included in the GitHub repo. Ask your instructor if you want supplementary exercises.
 
 ## Still stuck?
 

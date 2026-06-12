@@ -19,9 +19,10 @@
 ├── data/                 # lab datasets (500 / 1000 rows)
 └── hands-on/day-01 … day-06/
     ├── notebooks/        # core labs (required)
-    ├── notebooks-extra/  # optional stretch (when published)
-    └── scripts/        # same labs as .py files
+    └── scripts/          # same labs as .py files
 ```
+
+Optional stretch exercises are **not** in this repository — ask your instructor if you want more practice.
 
 ## Quick setup
 
