@@ -23,8 +23,6 @@ python -m ipykernel install --user --name cisco-aiml-lab --display-name "Python 
 | CSV not found | Start Jupyter from `hands-on/day-NN/notebooks/` or run all cells (path logic finds `data/`) |
 | Row count wrong (not 500/1000) | Use files in `data/` only — not full Kaggle downloads |
 | Checkpoint assert failed | Compare with **Example result** in `labs.md`; ask instructor before changing data |
-| `SyntaxError: unterminated string literal` | Re-clone the repo or ask instructor for a fresh `notebooks/` copy |
-
 ## Day-specific
 
 | Day | Issue | Fix |
@@ -34,10 +32,6 @@ python -m ipykernel install --user --name cisco-aiml-lab --display-name "Python 
 | 04 | FastAPI deprecation warning | Ignore in class |
 | 04 | MLflow UI won’t open | See [mlflow-ui-demo-setup.md](mlflow-ui-demo-setup.md) |
 | 05 | “500 rows” vs 25 symbols | Labs cluster **25 symbols** (aggregated features) |
-
-## Optional stretch material
-
-Not included in the GitHub repo. Ask your instructor if you want supplementary exercises.
 
 ## Still stuck?
 

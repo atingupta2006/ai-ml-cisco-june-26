@@ -39,10 +39,6 @@ Read [lab execution guide](lab-execution-guide.md) before Lab 1.
 | 05 | [day-05](../hands-on/day-05/README.md) | NYSE clustering |
 | 06 | [day-06](../hands-on/day-06/README.md) | Credit card fraud |
 
-## 5. Want more practice?
-
-Stretch exercises are **not** in this repository. If you finish early, ask your instructor — extra material is shared on request only.
-
 ## Datasets
 
 | Dataset | Used from day |

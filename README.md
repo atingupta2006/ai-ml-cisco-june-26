@@ -22,8 +22,6 @@
     └── scripts/          # same labs as .py files
 ```
 
-Optional stretch exercises are **not** in this repository — ask your instructor if you want more practice.
-
 ## Quick setup
 
 ```bash
