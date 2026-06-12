@@ -1,0 +1,3 @@
+# Students use notebooks/ only. Trainer scripts live in internal/trainer-scripts/
+*
+!.gitignore

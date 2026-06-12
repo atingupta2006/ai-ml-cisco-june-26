@@ -43,7 +43,7 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 | AI tool landscape | ✅ | `lab05_tool_landscape.ipynb` |
 | Basic statistics | ✅ | `lab03_statistics_basics.ipynb` |
 | Sample & hypothesis | ✅ | `lab04_hypothesis_sampling.ipynb` |
-| Excel group activity | ✅ | `lab06_excel_group_checkpoint.ipynb` |
+| Excel group activity | ✅ | `lab06_excel_group_activity.ipynb` |
 
 ---
 

@@ -1,6 +1,6 @@
 # Day 01 — Labs
 
-**Theme:** Data Science Introduction | **Lab time (6 labs):** ~215 min (~3.6 h)
+**Theme:** Data Science Introduction | **Lab time (6 labs):** ~435 min (~7.2 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -10,9 +10,11 @@
 
 **Environment:** one venv for all days — run `setup_student_env.ps1` (Windows) or `setup_student_env.sh` (Linux/Mac) once at repo root. See [lab execution guide](../../docs/lab-execution-guide.md). Jupyter kernel: **Python (cisco-aiml-lab)**.
 
-Labs 1, 2, and 5 are **discussion / worksheet** activities (no code required).
+Labs 1, 2, and 5 are **discussion / worksheet** activities (light code).
 
-Labs 3, 4, and 6 use the team sales file [`data/team_sales.csv`](data/team_sales.csv) (**20** rows). Lab 6 is designed as an **Excel group activity** — complete in Excel first, then verify with the Python checkpoint script.
+Labs 3, 4, and 6 are **hands-on** on [`data/team_sales.csv`](data/team_sales.csv) (**20** rows) — use **Excel and/or the Jupyter notebook** (notebooks are the primary path). Lab 6 is a **group Excel activity** with Python verification in the notebook.
+
+> **Note:** The `scripts/` folder is trainer-only and not part of the student handout.
 
 ---
 
@@ -22,11 +24,10 @@ Labs 3, 4, and 6 use the team sales file [`data/team_sales.csv`](data/team_sales
 |-----------|--------|
 | Lab 1 | Worksheet: AI ⊃ ML ⊃ DS nesting correct |
 | Lab 2 | Worksheet: all six CRISP-DM phases named |
-| Lab 3 | Mean q2_sales ≈ **150.30** |
-| Lab 4 | Growth rate (q2 > q1) = **0.75** |
-| Lab 5 | Worksheet: 3+ categories with 2+ tools each |
-| Lab 6 | **15** teams grew; top region **North** |
-
+| Lab 3 | Mean q2_sales ≈ **150.30**; regional tables; outlier analysis |
+| Lab 4 | Growth rate (q2 > q1) = **0.75**; sampling distribution explored |
+| Lab 5 | Worksheet: 3+ categories with 2+ tools each; CRISP-DM tool map |
+| Lab 6 | **15** teams grew; top region **North**; % growth story for East |
 
 ## Lab pacing
 
@@ -34,11 +35,11 @@ Labs 3, 4, and 6 use the team sales file [`data/team_sales.csv`](data/team_sales
 |-----|-----------|
 | Lab 1 | ~30 min |
 | Lab 2 | ~30 min |
-| Lab 3 | ~35 min |
-| Lab 4 | ~40 min |
-| Lab 5 | ~35 min |
-| Lab 6 | ~45 min |
-| **Total** | **~215 min** |
+| Lab 3 | ~90 min |
+| Lab 4 | ~100 min |
+| Lab 5 | ~75 min |
+| Lab 6 | ~110 min |
+| **Total** | **~435 min** |
 
 ---
 
@@ -64,19 +65,10 @@ Distinguish Artificial Intelligence, Machine Learning, and Data Science using th
 4. Write one-sentence definitions for AI, ML, and DS in your worksheet.
 5. Give one example of each that is **not** the Netflix case.
 
-## Example answers
-
-| Term | One-line definition |
-|------|---------------------|
-| AI | Systems that perform tasks requiring human-like intelligence |
-| ML | Algorithms that learn patterns from data without explicit rules |
-| Data Science | End-to-end process of extracting insight from data |
-
 ## Success criteria
 
 * Worksheet completed with nested relationship (AI ⊃ ML; DS overlaps ML).
 * At least one original example per term.
-* You can explain why not every DS project uses ML.
 
 ---
 
@@ -88,33 +80,17 @@ Map the CRISP-DM / data science lifecycle phases to a business problem your tabl
 
 **Estimated time:** ~30 min
 
-## Lab flow
-
-```text
-  pick problem → map six phases → identify deliverable per phase
-```
-
 ## Tasks
 
-1. Open `notebooks/lab02_data_science_cycle.ipynb` (recommended) or complete the worksheet on paper.
-2. As a group, pick a simple business question (e.g. "Which store region had highest Q2 sales?").
-3. Fill in the six phases: **Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment**.
-4. For each phase, write one activity and one output artifact.
-5. Identify which phases apply even when **no ML model** is built.
-
-## Example result
-
-| Phase | Activity | Output |
-|-------|----------|--------|
-| Business Understanding | Define KPI | Problem statement |
-| Data Understanding | Profile CSV | EDA summary |
-| Data Preparation | Clean missing values | Analysis-ready table |
+1. Open `notebooks/lab02_data_science_cycle.ipynb`.
+2. Pick a business question (e.g. "Which store region had highest Q2 sales?").
+3. Fill in all six CRISP-DM phases with activity and deliverable.
+4. Identify phases that apply without ML.
 
 ## Success criteria
 
 * All **six** phases named in order.
 * Each phase has an activity and deliverable.
-* You can explain where Excel analysis fits in the cycle.
 
 ---
 
@@ -122,37 +98,29 @@ Map the CRISP-DM / data science lifecycle phases to a business problem your tabl
 
 ## Objective
 
-Compute descriptive statistics on Q2 team sales — in Excel or with the verification script.
+Deep descriptive statistics on Q2 team sales — Excel **and** pandas, with regional and outlier analysis.
 
-**Estimated time:** ~35 min
-
-## Lab flow
-
-```text
-  open team_sales.csv → mean / median / std / min / max on q2_sales
-```
+**Estimated time:** ~90 min
 
 ## Tasks
 
-1. Open `notebooks/lab03_statistics_basics.ipynb` (recommended), or [`data/team_sales.csv`](data/team_sales.csv) in Excel, or run `scripts/lab03_statistics_basics.py`.
-2. Calculate mean, median, and standard deviation of `q2_sales`.
-3. Record min and max Q2 sales.
-4. Discuss which measure is most affected by Team_13's high Q2 value.
+1. Open `notebooks/lab03_statistics_basics.ipynb`.
+2. Mirror Excel formulas (`AVERAGE`, `MEDIAN`, `STDEV.S`, `AVERAGEIF`) in pandas.
+3. Measure Team_13 outlier impact; apply IQR rule; plot distributions.
+4. Aggregate by region; rank teams by % growth.
 
 ## Example result
 
 ```text
-rows: 20
-mean q2_sales: 150.30
-median q2_sales: 148.50
-std q2_sales: 34.74
+mean q2_sales: 150.30 | median: 148.50 | std: 34.74
+top outlier: Team_13 (210)
 ```
 
 ## Success criteria
 
 * Mean ≈ **150.30** and median ≈ **148.50**.
-* You can define mean vs median in plain language.
-* Script or Excel workbook shows matching values.
+* Regional table sums to **20** teams.
+* You can explain mean vs median with Team_13 example.
 
 ---
 
@@ -160,37 +128,21 @@ std q2_sales: 34.74
 
 ## Objective
 
-Practice random sampling and test a simple growth hypothesis: "Did Q2 sales exceed Q1?"
+Population vs sample, growth hypothesis, regional proportions, and sampling variation.
 
-**Estimated time:** ~40 min
-
-## Lab flow
-
-```text
-  population stats → random sample (n=10) → hypothesis proportion q2 > q1
-```
+**Estimated time:** ~100 min
 
 ## Tasks
 
-1. Open `notebooks/lab04_hypothesis_sampling.ipynb` (recommended) or run `scripts/lab04_hypothesis_sampling.py`.
-2. State null hypothesis H0: "Q2 sales are not higher than Q1 on average."
-3. Replicate in Excel with `RANDBETWEEN` sample if time permits.
-4. Compare sample mean (n=10) to population mean (n=20).
-5. Compute the proportion of teams where `q2_sales > q1_sales`.
-
-## Example result
-
-```text
-population mean q2_sales: 150.30
-sample mean q2_sales: 132.60
-growth rate (q2 > q1): 0.75
-```
+1. Open `notebooks/lab04_hypothesis_sampling.ipynb`.
+2. State H₀ / H₁ for team growth; compute population and sample means.
+3. Build sampling distribution (20+ draws); optional Excel `RAND` replication.
+4. Compare growth rates across all four regions.
 
 ## Success criteria
 
-* Population mean and sample mean both printed.
-* Growth rate = **0.75** (15 of 20 teams).
-* You can explain why a sample mean can differ from the population mean.
+* Population mean ≈ **150.30**; sample(n=10, rs=42) mean ≈ **132.60**.
+* Growth rate = **0.75**; North = **0.60**.
 
 ---
 
@@ -198,74 +150,41 @@ growth rate (q2 > q1): 0.75
 
 ## Objective
 
-Categorize data science tools from the course into storage, compute, visualization, and ML/MLOps buckets.
+Classify course tools; map to CRISP-DM and Days 2–6; complete org worksheet.
 
-**Estimated time:** ~35 min
-
-## Lab flow
-
-```text
-  instructor overview → worksheet matrix → share one tool per category
-```
+**Estimated time:** ~75 min
 
 ## Tasks
 
-1. Open `notebooks/lab05_tool_landscape.ipynb` (recommended) or complete the worksheet on paper.
-2. Complete the tool matrix with examples from this course: Python, Pandas, scikit-learn, MLflow, DVC, FastAPI, SHAP, FeatureTools.
-3. Add one **cloud** tool your organization uses (e.g. Databricks, SageMaker, Azure ML).
-4. Mark which tools are used on Days 2–6 of this training.
-5. Identify one tool for **data** vs **model** versioning (DVC covers both).
-
-## Example answers
-
-| Category | Tools from this course |
-|----------|------------------------|
-| Languages | Python |
-| ML / modeling | scikit-learn, SHAP |
-| MLOps | MLflow, DVC |
-| API serving | FastAPI |
+1. Open `notebooks/lab05_tool_landscape.ipynb`.
+2. Complete tool matrix, scavenger hunt, and org stack worksheet.
+3. Contrast MLflow vs DVC; map tools to CRISP-DM phases.
 
 ## Success criteria
 
-* At least **three** categories filled with **two** tools each.
-* MLflow and DVC correctly placed in MLOps.
-* You can explain one tool your team uses today.
+* ≥**3** categories with ≥**2** tools each.
+* MLflow and DVC in MLOps bucket.
 
 ---
 
-# Lab 6 — Excel group checkpoint
+# Lab 6 — Excel group activity
 
 ## Objective
 
-Complete a group Excel analysis of regional sales and verify totals against the checkpoint script.
+Group Excel pivot analysis of regional sales; verify in pandas; present totals vs % growth.
 
-**Estimated time:** ~45 min
-
-## Lab flow
-
-```text
-  Excel pivot by region → sum q1/q2 → count growth teams → compare to script
-```
+**Estimated time:** ~110 min
 
 ## Tasks
 
-1. Open `notebooks/lab06_excel_group_checkpoint.ipynb` (recommended) and/or import [`data/team_sales.csv`](data/team_sales.csv) into Excel.
-2. Build a pivot (or `SUMIF`) table: total `q1_sales` and `q2_sales` by `region`.
-3. Count teams where Q2 > Q1; identify the region with highest Q2 total.
-4. Run `scripts/lab06_excel_group_checkpoint.py` and confirm your Excel answers match.
-
-## Example result
-
-```text
-teams with q2 > q1: 15
-top region by q2 total: North
-total q2_sales: 3006
-```
+1. In **Excel**: pivot `team_sales.csv` by region; chart Q2 totals.
+2. Open `notebooks/lab06_excel_group_activity.ipynb` to **verify** your Excel answers.
+3. Prepare one slide: North wins total Q2, but which region wins **% growth**?
 
 ## Success criteria
 
-* Regional totals match the script output table.
-* **15** growth teams and top region **North** confirmed.
-* Group presents one chart (bar or column) of regional Q2 sales.
+* Regional totals match notebook verification.
+* **15** growth teams; top region **North** (by Q2 total).
+* Group presents one chart and the growth-rate insight.
 
 ---
