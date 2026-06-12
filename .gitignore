@@ -3,9 +3,8 @@ internal/
 tools/
 data-heavy/
 
-# --- Optional stretch material (share with students on request only) ---
-**/notebooks-extra/
-*extra*
+# --- Optional stretch material: hands-on/day-NN/notebooks-extra/ only ---
+hands-on/day-*/notebooks-extra/
 
 # --- Generated during labs ---
 hands-on/**/scripts/output/
