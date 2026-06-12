@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-10T12:05:05.913140+00:00",
+  "profile": "lab",
+  "scale_factor": 1,
+  "paths": {
+    "zomato": "C:\\25-Trainings\\2-Confirmed\\10-June-26-AI-ML-Cisco\\GH\\data\\zomato\\zomato_restaurants.csv",
+    "lending_club": "C:\\25-Trainings\\2-Confirmed\\10-June-26-AI-ML-Cisco\\GH\\data\\lending-club\\lending_club_sample.csv",
+    "nyse": "C:\\25-Trainings\\2-Confirmed\\10-June-26-AI-ML-Cisco\\GH\\data\\nyse\\nyse_stocks.csv",
+    "credit_card": "C:\\25-Trainings\\2-Confirmed\\10-June-26-AI-ML-Cisco\\GH\\data\\credit-card\\credit_card_transactions.csv"
+  },
+  "counts": {
+    "zomato_rows": 500,
+    "lending_club_rows": 1000,
+    "nyse_rows": 500,
+    "credit_card_rows": 1000,
+    "credit_card_fraud_rows": 10
+  }
+}

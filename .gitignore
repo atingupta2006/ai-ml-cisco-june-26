@@ -1,0 +1,27 @@
+# --- Maintainer-only (local workspace; never publish) ---
+internal/
+tools/
+data-heavy/
+
+# --- Generated during labs ---
+hands-on/**/scripts/output/
+hands-on/**/scripts/mlruns/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Local Python environment ---
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Secrets ---
+.env
+.env.*
+*.pem

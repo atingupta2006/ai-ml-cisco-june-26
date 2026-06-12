@@ -1,0 +1,501 @@
+restaurant_id,name,city,cuisines,aggregate_rating,votes,average_cost_for_two,online_order,book_table
+R00001,Restaurant 1,Ahmedabad,South Indian,3.7,1736,2314,No,No
+R00002,Restaurant 2,Bengaluru,Chinese,2.7,828,2368,Yes,No
+R00003,Restaurant 3,Chennai,South Indian,2.7,2843,2117,No,No
+R00004,Restaurant 4,Kochi,North Indian,3.0,4332,752,Yes,No
+R00005,Restaurant 5,Mumbai,Italian,3.1,2860,1622,No,No
+R00006,Restaurant 6,Delhi,South Indian,3.1,2859,1417,Yes,Yes
+R00007,Restaurant 7,Jaipur,North Indian,4.6,1123,609,Yes,No
+R00008,Restaurant 8,Chennai,Chinese,2.6,3660,2000,No,No
+R00009,Restaurant 9,Jaipur,Fast Food,4.8,3875,1175,Yes,Yes
+R00010,Restaurant 10,Chennai,Fast Food,3.2,696,994,Yes,No
+R00011,Restaurant 11,Mumbai,Bakery,4.3,3094,2311,No,No
+R00012,Restaurant 12,Kochi,Chinese,3.9,1540,1057,No,Yes
+R00013,Restaurant 13,Ahmedabad,North Indian,4.2,2799,1438,Yes,No
+R00014,Restaurant 14,Kochi,Cafe,4.0,3252,548,No,Yes
+R00015,Restaurant 15,Delhi,North Indian,3.2,4576,1612,Yes,No
+R00016,Restaurant 16,Chennai,Chinese,2.7,155,1779,Yes,No
+R00017,Restaurant 17,Kochi,Italian,3.6,4579,1865,No,Yes
+R00018,Restaurant 18,Kolkata,South Indian,3.1,385,319,Yes,No
+R00019,Restaurant 19,Delhi,Cafe,4.4,4306,383,Yes,Yes
+R00020,Restaurant 20,Lucknow,Cafe,3.1,2352,539,Yes,No
+R00021,Restaurant 21,Hyderabad,Italian,4.8,2138,2057,No,Yes
+R00022,Restaurant 22,Pune,Fast Food,3.7,257,917,No,No
+R00023,Restaurant 23,Hyderabad,North Indian,4.6,3831,652,No,Yes
+R00024,Restaurant 24,Mumbai,Bakery,3.7,1716,2230,Yes,Yes
+R00025,Restaurant 25,Kochi,South Indian,4.7,320,700,Yes,Yes
+R00026,Restaurant 26,Ahmedabad,Fast Food,2.6,305,1147,Yes,Yes
+R00027,Restaurant 27,Ahmedabad,Cafe,2.6,4455,1618,Yes,Yes
+R00028,Restaurant 28,Mumbai,Cafe,4.7,1396,2008,No,No
+R00029,Restaurant 29,Hyderabad,Italian,3.2,2476,2440,No,Yes
+R00030,Restaurant 30,Mumbai,North Indian,3.6,4773,280,Yes,No
+R00031,Restaurant 31,Pune,Bakery,2.8,311,315,Yes,Yes
+R00032,Restaurant 32,Chennai,Fast Food,4.5,2229,1461,No,Yes
+R00033,Restaurant 33,Mumbai,Cafe,3.3,2188,267,Yes,No
+R00034,Restaurant 34,Bengaluru,South Indian,4.5,1448,1333,No,No
+R00035,Restaurant 35,Mumbai,Chinese,4.5,3341,1538,No,No
+R00036,Restaurant 36,Kolkata,Fast Food,2.8,1391,1356,No,Yes
+R00037,Restaurant 37,Delhi,Chinese,3.5,483,1912,No,Yes
+R00038,Restaurant 38,Mumbai,Chinese,3.9,1962,476,Yes,Yes
+R00039,Restaurant 39,Lucknow,South Indian,3.0,2957,2353,Yes,No
+R00040,Restaurant 40,Kolkata,Fast Food,4.6,3953,1457,No,No
+R00041,Restaurant 41,Jaipur,Bakery,2.5,3354,779,No,No
+R00042,Restaurant 42,Chennai,Bakery,4.4,2918,862,No,Yes
+R00043,Restaurant 43,Hyderabad,Cafe,4.9,2562,1365,Yes,Yes
+R00044,Restaurant 44,Chandigarh,North Indian,4.6,1894,418,Yes,No
+R00045,Restaurant 45,Chennai,Italian,3.7,700,1793,Yes,No
+R00046,Restaurant 46,Chennai,Bakery,3.4,4896,2042,No,No
+R00047,Restaurant 47,Delhi,North Indian,4.3,775,1949,Yes,No
+R00048,Restaurant 48,Jaipur,North Indian,2.5,3451,696,No,Yes
+R00049,Restaurant 49,Chandigarh,Cafe,4.2,3106,2022,Yes,No
+R00050,Restaurant 50,Chandigarh,South Indian,4.4,1359,1857,No,No
+R00051,Restaurant 51,Pune,Fast Food,3.3,1462,1842,Yes,Yes
+R00052,Restaurant 52,Ahmedabad,Bakery,2.8,2968,554,Yes,Yes
+R00053,Restaurant 53,Chandigarh,Chinese,3.2,521,757,Yes,Yes
+R00054,Restaurant 54,Bengaluru,Italian,4.9,4543,1530,Yes,Yes
+R00055,Restaurant 55,Jaipur,Fast Food,3.2,4898,938,No,Yes
+R00056,Restaurant 56,Chennai,North Indian,4.5,104,2239,No,No
+R00057,Restaurant 57,Chennai,Cafe,3.5,4278,646,Yes,Yes
+R00058,Restaurant 58,Kolkata,Bakery,3.1,1000,1648,No,No
+R00059,Restaurant 59,Kolkata,Chinese,4.2,1934,1100,Yes,No
+R00060,Restaurant 60,Kochi,North Indian,4.0,63,1483,No,Yes
+R00061,Restaurant 61,Bengaluru,South Indian,4.7,586,856,No,Yes
+R00062,Restaurant 62,Lucknow,Chinese,4.3,4438,782,No,No
+R00063,Restaurant 63,Chandigarh,Italian,4.3,3069,1931,Yes,Yes
+R00064,Restaurant 64,Jaipur,Bakery,2.7,4289,2103,No,Yes
+R00065,Restaurant 65,Delhi,Chinese,2.6,308,1276,Yes,No
+R00066,Restaurant 66,Kolkata,South Indian,4.6,3017,1795,Yes,Yes
+R00067,Restaurant 67,Kolkata,North Indian,4.1,4222,1786,No,Yes
+R00068,Restaurant 68,Kochi,Chinese,3.2,149,2046,No,Yes
+R00069,Restaurant 69,Delhi,Chinese,3.0,3335,1149,No,No
+R00070,Restaurant 70,Chandigarh,Bakery,4.7,2669,643,Yes,No
+R00071,Restaurant 71,Chandigarh,Chinese,4.2,421,1322,No,No
+R00072,Restaurant 72,Kolkata,Bakery,3.2,1943,211,Yes,No
+R00073,Restaurant 73,Chandigarh,Cafe,4.7,3390,1865,Yes,No
+R00074,Restaurant 74,Mumbai,North Indian,4.7,4826,1894,No,Yes
+R00075,Restaurant 75,Hyderabad,South Indian,2.6,4689,2384,Yes,No
+R00076,Restaurant 76,Chandigarh,North Indian,3.5,3677,481,Yes,No
+R00077,Restaurant 77,Mumbai,Bakery,3.0,4958,327,No,No
+R00078,Restaurant 78,Delhi,Chinese,4.5,1641,1354,No,Yes
+R00079,Restaurant 79,Hyderabad,Fast Food,3.5,3573,947,Yes,Yes
+R00080,Restaurant 80,Chennai,Bakery,3.7,2334,397,Yes,No
+R00081,Restaurant 81,Kolkata,North Indian,3.7,2778,2163,Yes,Yes
+R00082,Restaurant 82,Delhi,Italian,3.7,4814,1400,Yes,No
+R00083,Restaurant 83,Jaipur,Fast Food,4.7,4066,1896,No,No
+R00084,Restaurant 84,Ahmedabad,Bakery,4.2,2128,2487,Yes,No
+R00085,Restaurant 85,Kochi,Cafe,3.0,190,507,No,No
+R00086,Restaurant 86,Bengaluru,Chinese,4.2,871,570,Yes,Yes
+R00087,Restaurant 87,Bengaluru,North Indian,3.4,4481,2494,No,No
+R00088,Restaurant 88,Mumbai,South Indian,4.7,1231,881,No,Yes
+R00089,Restaurant 89,Pune,North Indian,4.4,1690,712,No,Yes
+R00090,Restaurant 90,Bengaluru,Chinese,4.8,3193,1741,Yes,No
+R00091,Restaurant 91,Chennai,Cafe,3.2,1156,367,No,Yes
+R00092,Restaurant 92,Bengaluru,Cafe,4.0,1780,1048,Yes,No
+R00093,Restaurant 93,Bengaluru,North Indian,2.9,4246,579,Yes,Yes
+R00094,Restaurant 94,Hyderabad,Cafe,3.4,4376,1500,Yes,Yes
+R00095,Restaurant 95,Mumbai,Bakery,4.3,4755,1724,No,Yes
+R00096,Restaurant 96,Mumbai,Bakery,4.9,3886,1746,No,Yes
+R00097,Restaurant 97,Chennai,Italian,2.8,2012,841,No,Yes
+R00098,Restaurant 98,Lucknow,Fast Food,2.7,2713,2007,No,Yes
+R00099,Restaurant 99,Bengaluru,Chinese,3.1,4883,1151,No,Yes
+R00100,Restaurant 100,Chandigarh,Cafe,4.3,2891,933,Yes,Yes
+R00101,Restaurant 101,Bengaluru,Bakery,3.5,2885,737,No,Yes
+R00102,Restaurant 102,Kochi,Cafe,4.9,3838,402,Yes,Yes
+R00103,Restaurant 103,Ahmedabad,Fast Food,4.4,1964,1627,No,Yes
+R00104,Restaurant 104,Lucknow,Italian,2.7,1769,1017,Yes,No
+R00105,Restaurant 105,Delhi,Fast Food,4.7,3169,1115,Yes,Yes
+R00106,Restaurant 106,Hyderabad,Chinese,4.4,531,2301,Yes,No
+R00107,Restaurant 107,Hyderabad,Italian,4.0,2315,407,No,No
+R00108,Restaurant 108,Chennai,Chinese,3.2,754,303,Yes,No
+R00109,Restaurant 109,Mumbai,Chinese,3.5,4664,668,Yes,Yes
+R00110,Restaurant 110,Lucknow,Chinese,3.7,3037,1148,Yes,Yes
+R00111,Restaurant 111,Bengaluru,South Indian,3.0,2495,2278,No,Yes
+R00112,Restaurant 112,Chandigarh,Chinese,3.4,4164,2401,No,Yes
+R00113,Restaurant 113,Lucknow,Italian,2.6,2935,1935,No,Yes
+R00114,Restaurant 114,Kolkata,Italian,3.0,1013,1237,No,No
+R00115,Restaurant 115,Delhi,Italian,2.7,552,1784,Yes,Yes
+R00116,Restaurant 116,Lucknow,Cafe,3.4,3008,551,No,Yes
+R00117,Restaurant 117,Lucknow,Fast Food,3.0,4028,1297,Yes,No
+R00118,Restaurant 118,Jaipur,South Indian,2.7,962,1585,Yes,Yes
+R00119,Restaurant 119,Lucknow,Fast Food,3.5,2356,349,No,No
+R00120,Restaurant 120,Kochi,South Indian,2.6,4833,1323,Yes,Yes
+R00121,Restaurant 121,Chandigarh,Fast Food,2.7,2594,1583,No,No
+R00122,Restaurant 122,Delhi,Cafe,2.5,2625,243,Yes,Yes
+R00123,Restaurant 123,Kolkata,Italian,2.6,4246,2217,Yes,No
+R00124,Restaurant 124,Mumbai,North Indian,3.7,3600,2036,No,No
+R00125,Restaurant 125,Kochi,Cafe,2.9,1883,527,Yes,Yes
+R00126,Restaurant 126,Bengaluru,North Indian,2.8,3556,889,Yes,Yes
+R00127,Restaurant 127,Chennai,Bakery,3.7,3224,416,No,Yes
+R00128,Restaurant 128,Kolkata,North Indian,4.8,4742,2374,No,Yes
+R00129,Restaurant 129,Chennai,Chinese,3.9,3670,1612,Yes,Yes
+R00130,Restaurant 130,Kolkata,South Indian,3.5,753,989,Yes,No
+R00131,Restaurant 131,Ahmedabad,North Indian,4.4,3468,1540,Yes,Yes
+R00132,Restaurant 132,Kochi,Fast Food,4.5,1947,1566,Yes,No
+R00133,Restaurant 133,Chandigarh,Bakery,4.3,3280,2092,No,Yes
+R00134,Restaurant 134,Chandigarh,Cafe,2.7,2027,930,No,No
+R00135,Restaurant 135,Ahmedabad,Bakery,4.8,1808,1184,No,No
+R00136,Restaurant 136,Lucknow,North Indian,3.1,683,2307,Yes,Yes
+R00137,Restaurant 137,Mumbai,Bakery,2.9,500,1196,No,Yes
+R00138,Restaurant 138,Hyderabad,Cafe,4.8,3501,584,No,No
+R00139,Restaurant 139,Jaipur,Fast Food,4.4,3453,668,Yes,Yes
+R00140,Restaurant 140,Chandigarh,Italian,4.3,1265,616,No,Yes
+R00141,Restaurant 141,Chandigarh,Fast Food,2.6,601,1035,Yes,No
+R00142,Restaurant 142,Jaipur,Fast Food,4.5,4371,2321,Yes,Yes
+R00143,Restaurant 143,Lucknow,South Indian,3.8,214,2331,Yes,Yes
+R00144,Restaurant 144,Pune,North Indian,3.2,4843,1658,No,No
+R00145,Restaurant 145,Hyderabad,South Indian,4.4,3327,2030,No,No
+R00146,Restaurant 146,Delhi,North Indian,3.6,2708,1588,Yes,No
+R00147,Restaurant 147,Kochi,Fast Food,3.6,3716,608,Yes,No
+R00148,Restaurant 148,Hyderabad,North Indian,4.6,478,2403,Yes,No
+R00149,Restaurant 149,Mumbai,Cafe,3.3,1132,2124,No,Yes
+R00150,Restaurant 150,Lucknow,Fast Food,3.0,3113,897,Yes,Yes
+R00151,Restaurant 151,Bengaluru,Italian,4.6,420,1112,No,Yes
+R00152,Restaurant 152,Pune,Chinese,2.8,512,952,Yes,Yes
+R00153,Restaurant 153,Mumbai,Cafe,4.7,3356,1093,No,Yes
+R00154,Restaurant 154,Bengaluru,North Indian,3.3,1422,1469,No,Yes
+R00155,Restaurant 155,Chennai,Italian,4.4,1688,2222,No,Yes
+R00156,Restaurant 156,Kolkata,North Indian,4.7,2598,1526,No,No
+R00157,Restaurant 157,Jaipur,South Indian,3.7,83,1049,Yes,Yes
+R00158,Restaurant 158,Mumbai,South Indian,4.5,4015,1006,No,Yes
+R00159,Restaurant 159,Chandigarh,Fast Food,4.0,3298,597,Yes,Yes
+R00160,Restaurant 160,Mumbai,Italian,2.6,2098,1571,Yes,No
+R00161,Restaurant 161,Bengaluru,Bakery,4.5,1315,1597,Yes,No
+R00162,Restaurant 162,Delhi,South Indian,4.1,4491,288,No,Yes
+R00163,Restaurant 163,Lucknow,South Indian,3.5,1743,2238,Yes,No
+R00164,Restaurant 164,Mumbai,Bakery,3.3,3176,1972,Yes,No
+R00165,Restaurant 165,Pune,Chinese,3.9,4929,1773,No,Yes
+R00166,Restaurant 166,Mumbai,Fast Food,4.5,3430,1004,Yes,No
+R00167,Restaurant 167,Pune,Chinese,4.5,780,773,No,No
+R00168,Restaurant 168,Kochi,Bakery,4.1,1411,679,No,No
+R00169,Restaurant 169,Delhi,North Indian,3.9,1777,1621,Yes,Yes
+R00170,Restaurant 170,Ahmedabad,North Indian,3.7,3345,1613,Yes,Yes
+R00171,Restaurant 171,Kolkata,South Indian,3.9,2607,1228,Yes,Yes
+R00172,Restaurant 172,Pune,Fast Food,2.9,1773,318,Yes,Yes
+R00173,Restaurant 173,Kochi,Bakery,4.0,3330,728,Yes,Yes
+R00174,Restaurant 174,Lucknow,Cafe,3.7,4193,1589,Yes,Yes
+R00175,Restaurant 175,Pune,Italian,3.0,4353,2468,No,No
+R00176,Restaurant 176,Bengaluru,North Indian,3.5,3084,1605,Yes,No
+R00177,Restaurant 177,Delhi,North Indian,2.8,3058,2181,No,No
+R00178,Restaurant 178,Chandigarh,Italian,4.3,4976,462,No,Yes
+R00179,Restaurant 179,Chandigarh,Cafe,4.4,90,288,Yes,Yes
+R00180,Restaurant 180,Jaipur,Italian,3.8,3873,1606,No,Yes
+R00181,Restaurant 181,Ahmedabad,Italian,4.4,558,554,Yes,Yes
+R00182,Restaurant 182,Chennai,Chinese,4.2,250,1832,Yes,Yes
+R00183,Restaurant 183,Kolkata,North Indian,4.3,4472,2222,Yes,Yes
+R00184,Restaurant 184,Kochi,North Indian,3.1,2834,2039,Yes,Yes
+R00185,Restaurant 185,Mumbai,South Indian,3.3,290,1758,No,No
+R00186,Restaurant 186,Pune,North Indian,2.6,2886,1071,Yes,No
+R00187,Restaurant 187,Kochi,South Indian,4.4,372,1311,No,Yes
+R00188,Restaurant 188,Bengaluru,Bakery,4.7,950,1425,Yes,Yes
+R00189,Restaurant 189,Hyderabad,South Indian,4.2,3206,314,No,No
+R00190,Restaurant 190,Lucknow,North Indian,3.5,1930,1294,No,Yes
+R00191,Restaurant 191,Mumbai,Fast Food,3.1,4289,1054,No,No
+R00192,Restaurant 192,Jaipur,Chinese,3.6,2455,1158,No,No
+R00193,Restaurant 193,Kochi,Chinese,4.3,4266,1947,No,No
+R00194,Restaurant 194,Delhi,Italian,2.9,1855,1719,No,No
+R00195,Restaurant 195,Chandigarh,Cafe,2.9,2201,2431,No,Yes
+R00196,Restaurant 196,Ahmedabad,Chinese,2.5,4259,807,No,Yes
+R00197,Restaurant 197,Lucknow,Fast Food,3.2,420,1981,Yes,No
+R00198,Restaurant 198,Chennai,Fast Food,4.4,3755,1747,No,No
+R00199,Restaurant 199,Bengaluru,Fast Food,3.5,1642,1323,No,No
+R00200,Restaurant 200,Pune,Cafe,4.3,1258,341,No,No
+R00201,Restaurant 201,Chandigarh,Fast Food,3.8,3973,1438,No,Yes
+R00202,Restaurant 202,Delhi,South Indian,4.0,729,1272,Yes,No
+R00203,Restaurant 203,Bengaluru,Italian,3.8,1660,789,Yes,Yes
+R00204,Restaurant 204,Kochi,South Indian,4.3,3198,1980,Yes,Yes
+R00205,Restaurant 205,Chandigarh,South Indian,3.0,4301,1937,No,Yes
+R00206,Restaurant 206,Kochi,Fast Food,3.8,898,1482,Yes,Yes
+R00207,Restaurant 207,Delhi,Fast Food,3.3,4787,1168,Yes,Yes
+R00208,Restaurant 208,Jaipur,North Indian,4.0,257,1282,Yes,Yes
+R00209,Restaurant 209,Delhi,Bakery,3.5,4941,2201,No,Yes
+R00210,Restaurant 210,Delhi,South Indian,4.4,231,475,No,No
+R00211,Restaurant 211,Pune,South Indian,3.9,2828,2140,Yes,Yes
+R00212,Restaurant 212,Bengaluru,Fast Food,4.1,946,2422,Yes,No
+R00213,Restaurant 213,Ahmedabad,Cafe,4.2,4919,2124,Yes,No
+R00214,Restaurant 214,Kochi,Fast Food,4.7,524,1136,No,No
+R00215,Restaurant 215,Chennai,Fast Food,3.0,437,1943,Yes,No
+R00216,Restaurant 216,Chandigarh,South Indian,3.1,3616,1253,Yes,Yes
+R00217,Restaurant 217,Jaipur,Cafe,4.2,1505,1378,No,No
+R00218,Restaurant 218,Pune,Chinese,2.9,3734,1107,Yes,No
+R00219,Restaurant 219,Pune,Fast Food,3.0,4152,1505,Yes,No
+R00220,Restaurant 220,Ahmedabad,North Indian,4.7,3181,474,No,No
+R00221,Restaurant 221,Jaipur,North Indian,3.1,462,400,No,Yes
+R00222,Restaurant 222,Mumbai,Bakery,2.7,3722,1720,No,No
+R00223,Restaurant 223,Ahmedabad,Bakery,2.9,3111,567,No,Yes
+R00224,Restaurant 224,Lucknow,Italian,2.7,432,338,No,No
+R00225,Restaurant 225,Ahmedabad,Italian,4.5,4125,1121,Yes,Yes
+R00226,Restaurant 226,Jaipur,Italian,4.2,4455,1629,Yes,No
+R00227,Restaurant 227,Hyderabad,Italian,3.5,397,436,No,Yes
+R00228,Restaurant 228,Mumbai,Bakery,3.3,1597,406,Yes,No
+R00229,Restaurant 229,Delhi,North Indian,4.4,3407,412,Yes,Yes
+R00230,Restaurant 230,Pune,Italian,3.3,1384,310,No,Yes
+R00231,Restaurant 231,Chandigarh,Bakery,4.6,1422,1046,No,Yes
+R00232,Restaurant 232,Kolkata,Cafe,4.1,3124,2133,Yes,No
+R00233,Restaurant 233,Chennai,North Indian,3.1,4844,1575,No,Yes
+R00234,Restaurant 234,Kolkata,Bakery,3.7,4531,1843,No,Yes
+R00235,Restaurant 235,Hyderabad,South Indian,4.7,4893,1269,Yes,No
+R00236,Restaurant 236,Lucknow,Fast Food,4.6,3177,1950,No,Yes
+R00237,Restaurant 237,Jaipur,Cafe,2.9,4702,1644,Yes,Yes
+R00238,Restaurant 238,Chandigarh,Chinese,3.6,1797,1950,Yes,No
+R00239,Restaurant 239,Hyderabad,Cafe,4.1,743,1931,No,No
+R00240,Restaurant 240,Delhi,South Indian,2.6,242,2000,Yes,Yes
+R00241,Restaurant 241,Chennai,North Indian,3.8,3073,1463,Yes,No
+R00242,Restaurant 242,Delhi,Cafe,3.3,3929,1881,Yes,No
+R00243,Restaurant 243,Jaipur,North Indian,3.2,3211,349,No,Yes
+R00244,Restaurant 244,Jaipur,Bakery,4.6,4215,860,No,No
+R00245,Restaurant 245,Jaipur,Fast Food,3.7,303,717,Yes,Yes
+R00246,Restaurant 246,Pune,Fast Food,3.0,4072,1713,No,No
+R00247,Restaurant 247,Chennai,Italian,3.1,4731,2054,Yes,No
+R00248,Restaurant 248,Mumbai,Bakery,4.0,4765,2091,No,Yes
+R00249,Restaurant 249,Hyderabad,North Indian,3.7,4349,332,Yes,Yes
+R00250,Restaurant 250,Hyderabad,Cafe,3.8,4029,760,No,Yes
+R00251,Restaurant 251,Kochi,Chinese,4.9,2317,1347,Yes,Yes
+R00252,Restaurant 252,Bengaluru,South Indian,2.9,2439,370,No,Yes
+R00253,Restaurant 253,Jaipur,Italian,4.5,3088,340,Yes,No
+R00254,Restaurant 254,Pune,Cafe,3.3,1183,2209,Yes,No
+R00255,Restaurant 255,Lucknow,Italian,3.8,3305,1021,No,No
+R00256,Restaurant 256,Kolkata,Fast Food,3.8,2865,229,No,No
+R00257,Restaurant 257,Delhi,Bakery,3.0,3256,1064,Yes,No
+R00258,Restaurant 258,Kochi,Bakery,2.6,3215,2289,No,No
+R00259,Restaurant 259,Bengaluru,North Indian,3.4,4936,1794,No,Yes
+R00260,Restaurant 260,Hyderabad,Cafe,3.5,1695,1960,No,No
+R00261,Restaurant 261,Chandigarh,North Indian,3.4,1748,1158,Yes,No
+R00262,Restaurant 262,Chennai,South Indian,4.6,2353,1239,No,No
+R00263,Restaurant 263,Kolkata,North Indian,4.5,4462,485,Yes,No
+R00264,Restaurant 264,Bengaluru,Chinese,4.2,2307,286,No,Yes
+R00265,Restaurant 265,Kochi,Cafe,4.6,4878,2166,No,Yes
+R00266,Restaurant 266,Delhi,North Indian,4.5,3432,1769,No,Yes
+R00267,Restaurant 267,Jaipur,Fast Food,2.9,1307,1515,No,No
+R00268,Restaurant 268,Chennai,Cafe,3.0,924,1426,No,Yes
+R00269,Restaurant 269,Kochi,South Indian,2.9,2146,1614,Yes,No
+R00270,Restaurant 270,Pune,Fast Food,2.6,4812,1421,No,No
+R00271,Restaurant 271,Lucknow,Chinese,2.8,364,1444,Yes,No
+R00272,Restaurant 272,Bengaluru,North Indian,3.9,281,1806,No,No
+R00273,Restaurant 273,Ahmedabad,Bakery,4.3,626,2316,No,No
+R00274,Restaurant 274,Hyderabad,Chinese,3.8,3669,1015,No,Yes
+R00275,Restaurant 275,Chandigarh,North Indian,4.3,1092,1109,No,No
+R00276,Restaurant 276,Kochi,South Indian,3.3,3060,2244,Yes,No
+R00277,Restaurant 277,Kochi,Fast Food,2.8,398,1259,Yes,No
+R00278,Restaurant 278,Pune,Cafe,3.2,2944,985,No,Yes
+R00279,Restaurant 279,Lucknow,North Indian,2.6,4263,1080,No,No
+R00280,Restaurant 280,Chandigarh,Fast Food,4.8,1399,2168,Yes,Yes
+R00281,Restaurant 281,Delhi,South Indian,4.0,1939,1600,No,Yes
+R00282,Restaurant 282,Lucknow,Italian,4.3,4090,2267,Yes,No
+R00283,Restaurant 283,Hyderabad,South Indian,3.9,3853,2482,Yes,No
+R00284,Restaurant 284,Jaipur,Cafe,2.7,4969,837,No,Yes
+R00285,Restaurant 285,Jaipur,Italian,2.6,2978,1736,Yes,Yes
+R00286,Restaurant 286,Delhi,Cafe,3.9,2333,809,No,No
+R00287,Restaurant 287,Hyderabad,Italian,4.7,2592,482,Yes,Yes
+R00288,Restaurant 288,Kolkata,South Indian,2.5,4533,2423,Yes,Yes
+R00289,Restaurant 289,Chennai,Bakery,3.5,1344,666,No,Yes
+R00290,Restaurant 290,Delhi,Cafe,3.9,3621,1799,Yes,Yes
+R00291,Restaurant 291,Kochi,Fast Food,3.8,987,2193,Yes,No
+R00292,Restaurant 292,Delhi,South Indian,2.8,1460,1281,No,Yes
+R00293,Restaurant 293,Chandigarh,Cafe,3.7,1247,1690,No,Yes
+R00294,Restaurant 294,Bengaluru,Bakery,4.5,271,2082,Yes,Yes
+R00295,Restaurant 295,Lucknow,South Indian,3.1,1692,2366,Yes,No
+R00296,Restaurant 296,Chandigarh,Bakery,2.5,4089,570,Yes,No
+R00297,Restaurant 297,Delhi,North Indian,4.0,516,1666,Yes,Yes
+R00298,Restaurant 298,Ahmedabad,South Indian,4.5,482,554,No,No
+R00299,Restaurant 299,Kochi,Fast Food,2.8,90,1720,Yes,Yes
+R00300,Restaurant 300,Chennai,South Indian,3.0,3580,668,Yes,Yes
+R00301,Restaurant 301,Ahmedabad,Fast Food,3.2,814,826,No,No
+R00302,Restaurant 302,Lucknow,Chinese,3.6,3759,1060,Yes,No
+R00303,Restaurant 303,Ahmedabad,Bakery,3.3,3414,375,Yes,Yes
+R00304,Restaurant 304,Lucknow,Bakery,4.8,3621,503,Yes,No
+R00305,Restaurant 305,Mumbai,Italian,3.6,4624,531,No,Yes
+R00306,Restaurant 306,Ahmedabad,South Indian,3.2,2634,1704,Yes,No
+R00307,Restaurant 307,Kolkata,Italian,2.8,3984,1223,No,Yes
+R00308,Restaurant 308,Bengaluru,North Indian,4.4,2733,1581,No,No
+R00309,Restaurant 309,Jaipur,Chinese,3.5,2069,685,No,No
+R00310,Restaurant 310,Delhi,North Indian,4.4,896,806,No,No
+R00311,Restaurant 311,Ahmedabad,Chinese,3.6,1733,2088,Yes,Yes
+R00312,Restaurant 312,Chandigarh,Cafe,4.5,467,1256,Yes,No
+R00313,Restaurant 313,Ahmedabad,Fast Food,2.8,632,206,Yes,Yes
+R00314,Restaurant 314,Lucknow,Italian,3.4,511,882,No,Yes
+R00315,Restaurant 315,Delhi,Cafe,3.6,4968,2178,Yes,No
+R00316,Restaurant 316,Chandigarh,Fast Food,3.0,2601,1137,Yes,No
+R00317,Restaurant 317,Chennai,Italian,4.4,4571,753,No,Yes
+R00318,Restaurant 318,Mumbai,Chinese,3.4,1025,1876,Yes,Yes
+R00319,Restaurant 319,Delhi,North Indian,3.9,2191,2360,Yes,Yes
+R00320,Restaurant 320,Bengaluru,Cafe,3.2,2758,503,Yes,No
+R00321,Restaurant 321,Mumbai,Chinese,3.8,69,1319,No,No
+R00322,Restaurant 322,Hyderabad,Fast Food,2.8,4309,1477,Yes,Yes
+R00323,Restaurant 323,Chennai,Fast Food,2.5,1549,1669,No,No
+R00324,Restaurant 324,Lucknow,Cafe,3.8,894,592,Yes,No
+R00325,Restaurant 325,Bengaluru,Italian,4.5,2116,503,No,Yes
+R00326,Restaurant 326,Jaipur,Cafe,4.4,1677,356,Yes,Yes
+R00327,Restaurant 327,Lucknow,Fast Food,4.4,4899,2214,Yes,Yes
+R00328,Restaurant 328,Delhi,Cafe,3.6,2165,257,Yes,Yes
+R00329,Restaurant 329,Mumbai,Fast Food,4.9,2357,412,Yes,Yes
+R00330,Restaurant 330,Ahmedabad,South Indian,3.5,760,431,Yes,Yes
+R00331,Restaurant 331,Bengaluru,Cafe,2.5,1192,2179,Yes,No
+R00332,Restaurant 332,Chandigarh,Bakery,2.8,4663,852,No,Yes
+R00333,Restaurant 333,Ahmedabad,Fast Food,4.6,3088,324,Yes,Yes
+R00334,Restaurant 334,Kochi,South Indian,4.2,2541,827,No,No
+R00335,Restaurant 335,Pune,North Indian,3.3,4218,1193,Yes,Yes
+R00336,Restaurant 336,Pune,North Indian,3.9,1031,1974,No,No
+R00337,Restaurant 337,Lucknow,Cafe,3.3,1393,1351,Yes,Yes
+R00338,Restaurant 338,Bengaluru,Chinese,2.9,683,1415,Yes,Yes
+R00339,Restaurant 339,Bengaluru,Bakery,4.5,3059,712,No,No
+R00340,Restaurant 340,Jaipur,Bakery,4.3,989,1766,Yes,Yes
+R00341,Restaurant 341,Pune,Chinese,3.2,2725,1268,No,No
+R00342,Restaurant 342,Ahmedabad,Cafe,3.0,1973,2116,Yes,No
+R00343,Restaurant 343,Kochi,Cafe,3.5,32,1060,No,No
+R00344,Restaurant 344,Lucknow,North Indian,4.3,2284,1572,No,No
+R00345,Restaurant 345,Chennai,South Indian,3.6,3489,1993,Yes,No
+R00346,Restaurant 346,Kolkata,Fast Food,4.0,2953,1367,Yes,Yes
+R00347,Restaurant 347,Ahmedabad,North Indian,4.7,177,1024,No,No
+R00348,Restaurant 348,Pune,Italian,3.0,2828,1738,Yes,Yes
+R00349,Restaurant 349,Kochi,Italian,4.7,2366,325,Yes,No
+R00350,Restaurant 350,Chennai,Bakery,4.8,932,598,No,Yes
+R00351,Restaurant 351,Ahmedabad,Italian,3.9,1138,2491,Yes,No
+R00352,Restaurant 352,Kolkata,South Indian,3.3,4166,1172,Yes,Yes
+R00353,Restaurant 353,Ahmedabad,Fast Food,4.0,4072,1352,No,Yes
+R00354,Restaurant 354,Kochi,Fast Food,4.8,409,2069,No,No
+R00355,Restaurant 355,Chandigarh,South Indian,3.1,4741,739,Yes,Yes
+R00356,Restaurant 356,Delhi,Fast Food,2.7,1741,483,Yes,Yes
+R00357,Restaurant 357,Pune,Cafe,3.7,123,1004,Yes,Yes
+R00358,Restaurant 358,Kochi,Cafe,2.8,722,2417,No,No
+R00359,Restaurant 359,Mumbai,Chinese,3.6,2874,1503,No,Yes
+R00360,Restaurant 360,Mumbai,Italian,3.7,726,362,No,Yes
+R00361,Restaurant 361,Chennai,South Indian,4.6,2666,1413,Yes,Yes
+R00362,Restaurant 362,Jaipur,Bakery,2.6,3039,2013,No,Yes
+R00363,Restaurant 363,Pune,North Indian,2.8,2111,2182,Yes,No
+R00364,Restaurant 364,Mumbai,Chinese,2.6,534,238,No,Yes
+R00365,Restaurant 365,Hyderabad,Chinese,4.8,1039,267,No,No
+R00366,Restaurant 366,Jaipur,Chinese,4.6,839,1932,Yes,No
+R00367,Restaurant 367,Delhi,Italian,4.6,1953,1201,No,Yes
+R00368,Restaurant 368,Kolkata,Italian,3.5,4967,769,Yes,No
+R00369,Restaurant 369,Chennai,Fast Food,3.4,2362,1664,Yes,No
+R00370,Restaurant 370,Bengaluru,Bakery,3.2,2636,1272,Yes,No
+R00371,Restaurant 371,Mumbai,Chinese,4.5,3378,1742,No,No
+R00372,Restaurant 372,Chandigarh,Chinese,2.9,3142,793,No,Yes
+R00373,Restaurant 373,Mumbai,Italian,4.0,12,1416,Yes,Yes
+R00374,Restaurant 374,Chennai,Bakery,4.0,2725,1512,Yes,Yes
+R00375,Restaurant 375,Jaipur,Fast Food,4.7,4608,1915,No,No
+R00376,Restaurant 376,Lucknow,North Indian,4.5,650,1935,Yes,Yes
+R00377,Restaurant 377,Lucknow,Italian,4.4,4192,1467,No,No
+R00378,Restaurant 378,Lucknow,Italian,2.8,2848,633,Yes,Yes
+R00379,Restaurant 379,Kochi,Chinese,4.9,4642,841,No,No
+R00380,Restaurant 380,Chennai,Cafe,2.9,994,2033,No,Yes
+R00381,Restaurant 381,Kolkata,Fast Food,4.8,2737,809,Yes,No
+R00382,Restaurant 382,Jaipur,South Indian,4.1,2548,395,No,No
+R00383,Restaurant 383,Lucknow,Italian,4.5,1499,863,Yes,No
+R00384,Restaurant 384,Ahmedabad,Chinese,2.5,1110,296,No,No
+R00385,Restaurant 385,Delhi,South Indian,3.2,617,1511,No,Yes
+R00386,Restaurant 386,Chandigarh,North Indian,2.9,3241,1292,No,Yes
+R00387,Restaurant 387,Pune,South Indian,4.7,3503,1415,Yes,No
+R00388,Restaurant 388,Ahmedabad,Chinese,3.6,4777,349,No,Yes
+R00389,Restaurant 389,Kolkata,Italian,3.2,4432,1684,Yes,Yes
+R00390,Restaurant 390,Chennai,Chinese,4.1,4624,876,No,No
+R00391,Restaurant 391,Ahmedabad,Fast Food,2.5,129,2134,Yes,Yes
+R00392,Restaurant 392,Chandigarh,Cafe,4.5,624,1592,Yes,Yes
+R00393,Restaurant 393,Chandigarh,Bakery,2.7,1488,490,No,No
+R00394,Restaurant 394,Mumbai,Italian,3.6,1662,260,No,Yes
+R00395,Restaurant 395,Kochi,Chinese,3.9,3298,572,No,No
+R00396,Restaurant 396,Hyderabad,Italian,3.4,788,1602,Yes,Yes
+R00397,Restaurant 397,Hyderabad,Italian,4.7,4824,2100,Yes,Yes
+R00398,Restaurant 398,Pune,Italian,3.5,2103,1633,Yes,Yes
+R00399,Restaurant 399,Chennai,South Indian,3.2,2176,1377,No,No
+R00400,Restaurant 400,Chennai,Cafe,3.1,2935,723,No,Yes
+R00401,Restaurant 401,Chennai,Cafe,3.5,124,1112,Yes,Yes
+R00402,Restaurant 402,Pune,Cafe,2.9,2989,984,No,No
+R00403,Restaurant 403,Ahmedabad,North Indian,4.8,4217,769,No,Yes
+R00404,Restaurant 404,Jaipur,Italian,4.2,3868,2419,No,Yes
+R00405,Restaurant 405,Hyderabad,Chinese,3.2,936,622,No,No
+R00406,Restaurant 406,Kochi,Chinese,2.7,1973,2470,Yes,No
+R00407,Restaurant 407,Kolkata,Italian,2.6,3640,2228,Yes,No
+R00408,Restaurant 408,Kolkata,Fast Food,4.6,1058,2236,No,Yes
+R00409,Restaurant 409,Chennai,South Indian,3.5,3295,1566,Yes,No
+R00410,Restaurant 410,Pune,Chinese,3.7,3250,1468,No,No
+R00411,Restaurant 411,Chandigarh,Fast Food,3.1,4439,853,No,No
+R00412,Restaurant 412,Delhi,Italian,4.7,2663,963,Yes,No
+R00413,Restaurant 413,Lucknow,North Indian,2.7,1776,876,No,Yes
+R00414,Restaurant 414,Mumbai,Chinese,3.2,4474,542,No,Yes
+R00415,Restaurant 415,Kolkata,Chinese,4.0,1130,1857,No,Yes
+R00416,Restaurant 416,Chennai,North Indian,3.5,1706,2476,Yes,Yes
+R00417,Restaurant 417,Delhi,Fast Food,3.5,2340,2067,No,Yes
+R00418,Restaurant 418,Pune,Chinese,3.6,1437,461,Yes,No
+R00419,Restaurant 419,Hyderabad,Fast Food,3.7,441,1662,Yes,No
+R00420,Restaurant 420,Hyderabad,Chinese,2.7,3121,353,Yes,No
+R00421,Restaurant 421,Delhi,Bakery,3.9,2736,917,No,Yes
+R00422,Restaurant 422,Delhi,South Indian,2.8,4715,1051,Yes,No
+R00423,Restaurant 423,Jaipur,North Indian,4.0,4027,879,Yes,Yes
+R00424,Restaurant 424,Lucknow,North Indian,4.7,2636,2296,No,Yes
+R00425,Restaurant 425,Pune,Bakery,3.1,652,482,No,No
+R00426,Restaurant 426,Chennai,Cafe,4.7,342,283,No,Yes
+R00427,Restaurant 427,Chennai,Cafe,4.5,3710,2059,No,No
+R00428,Restaurant 428,Jaipur,Bakery,4.4,3112,1886,No,Yes
+R00429,Restaurant 429,Chandigarh,Chinese,4.6,3637,1894,Yes,Yes
+R00430,Restaurant 430,Jaipur,Fast Food,3.1,747,337,No,Yes
+R00431,Restaurant 431,Mumbai,North Indian,2.6,2853,1870,Yes,Yes
+R00432,Restaurant 432,Ahmedabad,Cafe,4.7,2505,1531,No,Yes
+R00433,Restaurant 433,Jaipur,Chinese,4.8,4328,836,No,No
+R00434,Restaurant 434,Lucknow,Italian,4.8,653,2390,No,Yes
+R00435,Restaurant 435,Delhi,Chinese,4.8,4805,217,Yes,No
+R00436,Restaurant 436,Hyderabad,North Indian,3.0,1460,1364,No,No
+R00437,Restaurant 437,Chandigarh,Cafe,3.1,4537,700,No,Yes
+R00438,Restaurant 438,Chennai,Fast Food,3.6,2799,1816,Yes,No
+R00439,Restaurant 439,Kolkata,Bakery,4.4,371,389,No,No
+R00440,Restaurant 440,Jaipur,Chinese,3.7,2501,938,No,No
+R00441,Restaurant 441,Ahmedabad,Bakery,4.1,1336,1975,No,No
+R00442,Restaurant 442,Delhi,North Indian,3.8,792,2353,Yes,No
+R00443,Restaurant 443,Chennai,Fast Food,2.6,2007,1373,Yes,No
+R00444,Restaurant 444,Lucknow,Italian,3.1,3352,794,Yes,Yes
+R00445,Restaurant 445,Chandigarh,Bakery,2.5,2704,1345,No,No
+R00446,Restaurant 446,Kochi,Italian,4.3,1568,395,No,Yes
+R00447,Restaurant 447,Chennai,North Indian,4.4,2096,2093,Yes,Yes
+R00448,Restaurant 448,Ahmedabad,Cafe,4.3,3902,1262,Yes,Yes
+R00449,Restaurant 449,Kolkata,Fast Food,4.4,3066,395,Yes,Yes
+R00450,Restaurant 450,Mumbai,Chinese,2.8,3719,2175,Yes,Yes
+R00451,Restaurant 451,Ahmedabad,Italian,2.8,2557,281,No,Yes
+R00452,Restaurant 452,Mumbai,Italian,3.9,3110,247,Yes,Yes
+R00453,Restaurant 453,Lucknow,South Indian,4.9,2450,290,No,No
+R00454,Restaurant 454,Bengaluru,North Indian,4.5,1274,1357,No,Yes
+R00455,Restaurant 455,Chandigarh,Cafe,3.8,1665,542,Yes,Yes
+R00456,Restaurant 456,Ahmedabad,Italian,4.1,3200,1709,Yes,No
+R00457,Restaurant 457,Kochi,Chinese,4.9,1734,892,No,No
+R00458,Restaurant 458,Hyderabad,Chinese,3.5,4771,549,Yes,No
+R00459,Restaurant 459,Bengaluru,Cafe,3.1,1717,271,Yes,Yes
+R00460,Restaurant 460,Delhi,Chinese,2.9,1405,1879,Yes,Yes
+R00461,Restaurant 461,Mumbai,North Indian,4.8,2549,2246,Yes,No
+R00462,Restaurant 462,Chandigarh,Cafe,3.6,2995,1079,Yes,Yes
+R00463,Restaurant 463,Chandigarh,South Indian,4.7,598,1881,Yes,Yes
+R00464,Restaurant 464,Pune,Bakery,3.6,982,900,Yes,No
+R00465,Restaurant 465,Chennai,Fast Food,3.2,3113,681,Yes,No
+R00466,Restaurant 466,Chandigarh,Fast Food,2.5,4148,2106,No,No
+R00467,Restaurant 467,Kochi,Cafe,3.5,2057,287,Yes,Yes
+R00468,Restaurant 468,Bengaluru,Bakery,4.0,3553,2327,No,No
+R00469,Restaurant 469,Jaipur,Chinese,4.2,1507,397,Yes,Yes
+R00470,Restaurant 470,Jaipur,Cafe,4.4,1089,1529,No,Yes
+R00471,Restaurant 471,Chennai,Cafe,4.4,2997,1802,No,Yes
+R00472,Restaurant 472,Chandigarh,Fast Food,2.7,3563,1137,Yes,Yes
+R00473,Restaurant 473,Kochi,North Indian,4.1,1842,272,No,Yes
+R00474,Restaurant 474,Lucknow,Chinese,3.3,1635,601,No,Yes
+R00475,Restaurant 475,Chennai,Italian,4.7,3480,693,No,No
+R00476,Restaurant 476,Jaipur,North Indian,2.7,803,337,Yes,No
+R00477,Restaurant 477,Kochi,Fast Food,2.7,2210,869,Yes,No
+R00478,Restaurant 478,Pune,Bakery,3.6,883,1542,Yes,No
+R00479,Restaurant 479,Hyderabad,Fast Food,4.8,637,511,Yes,Yes
+R00480,Restaurant 480,Delhi,Bakery,4.1,1643,1491,No,No
+R00481,Restaurant 481,Mumbai,Fast Food,3.4,1148,330,No,Yes
+R00482,Restaurant 482,Chandigarh,North Indian,3.7,3985,1734,Yes,No
+R00483,Restaurant 483,Ahmedabad,Chinese,4.9,1506,2386,No,Yes
+R00484,Restaurant 484,Delhi,Bakery,2.7,1448,2007,No,Yes
+R00485,Restaurant 485,Chennai,Fast Food,2.5,2453,2074,No,No
+R00486,Restaurant 486,Delhi,Chinese,2.9,2034,1411,Yes,No
+R00487,Restaurant 487,Bengaluru,Fast Food,3.2,2220,1807,No,No
+R00488,Restaurant 488,Kochi,South Indian,3.5,3674,315,Yes,No
+R00489,Restaurant 489,Mumbai,Fast Food,4.0,3426,914,No,Yes
+R00490,Restaurant 490,Mumbai,Cafe,3.2,4016,2258,Yes,No
+R00491,Restaurant 491,Delhi,Bakery,4.1,4481,1570,Yes,Yes
+R00492,Restaurant 492,Kochi,Italian,3.7,2855,258,Yes,No
+R00493,Restaurant 493,Hyderabad,North Indian,4.7,4970,1381,No,No
+R00494,Restaurant 494,Jaipur,Cafe,3.3,1962,1987,No,No
+R00495,Restaurant 495,Chennai,Chinese,3.6,4843,315,No,No
+R00496,Restaurant 496,Chandigarh,Chinese,3.5,4466,815,No,No
+R00497,Restaurant 497,Pune,Cafe,3.0,2036,1140,No,No
+R00498,Restaurant 498,Jaipur,Italian,4.0,2029,303,No,Yes
+R00499,Restaurant 499,Delhi,South Indian,4.6,2427,894,Yes,Yes
+R00500,Restaurant 500,Mumbai,South Indian,4.5,3565,2138,Yes,Yes
