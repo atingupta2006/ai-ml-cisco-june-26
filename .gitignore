@@ -7,6 +7,11 @@ hands-on/day-*/notebooks-extra/
 # --- Generated during labs ---
 hands-on/**/scripts/output/
 hands-on/**/scripts/mlruns/
+# DVC local state (Day 4 Lab 6 — students generate on their machine)
+hands-on/day-04/scripts/.dvc/
+hands-on/day-04/scripts/.dvcignore
+hands-on/day-04/scripts/dvc.lock
+hands-on/day-04/scripts/output/*.dvc
 **/__pycache__/
 *.py[cod]
 *.pyo

@@ -21,7 +21,7 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 | Distance algorithms | ✅ | Day 4 Labs 1–3 |
 | Feature engineering & auto FE | ✅ | Day 3 Lab 5; Day 4 Lab 5 FeatureTools |
 | Feature selection | ✅ | Day 3 Lab 5 SelectKBest extension |
-| MLflow & DVC | ✅ 📋 | Day 1 Lab 5; Day 4 Lab 6 |
+| MLflow & DVC | ✅ | Day 1 Lab 5; Day 4 Lab 6 |
 | Unsupervised learning & cluster metrics | ✅ | Day 5 all labs |
 | Anomaly detection | ✅ | Day 6 all labs |
 
@@ -93,7 +93,7 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 | FastAPI | ✅ | `lab04_fastapi_scoring_api.ipynb` |
 | FeatureTools auto FE | ✅ | `lab05_featuretools_auto_fe.ipynb` |
 | MLflow experiment tracking | ✅ | `lab06_mlflow_experiment_log.ipynb` |
-| DVC | ✅ 📋 | Lab 6 DVC section; Lab 1 tool matrix |
+| DVC | ✅ | Lab 6 (`dvc init`, `dvc add`, `dvc status`); Lab 1 tool matrix |
 
 ---
 
@@ -131,7 +131,7 @@ These appear in **Day 1 Lab 1 worksheets** or instructor slides — not every bu
 
 - AI maturity levels, future tech headlines, organizational AI roles
 - Spectral / OPTICS algorithms (concept + when to use; DBSCAN is the hands-on density method)
-- Hands-on `dvc add` requires DVC CLI installed (demo in Lab 6; MLflow is the primary tracked exercise)
+- DVC hands-on in Lab 6 requires `dvc` in the student environment (`requirements-student.txt`)
 
 ---
 

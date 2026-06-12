@@ -23,7 +23,7 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 | Lab 3 | Best k = **3**; accuracy ≈ **0.59** |
 | Lab 4 | `GET /health` → **200**; `POST /predict` → **200** |
 | Lab 5 | Feature matrix shape **(1000, 6)**; top corr **int_rate** |
-| Lab 6 | MLflow run logged; accuracy ≈ **0.58**; `metrics.json` written |
+| Lab 6 | MLflow run logged; accuracy ≈ **0.58**; `metrics.json` + `metrics.json.dvc` |
 
 
 ## Lab pacing
@@ -228,22 +228,22 @@ top |corr| with default: int_rate: 0.2084
 
 ## Objective
 
-Log a KNN training run to MLflow and write a `metrics.json` artifact suitable for a classroom DVC demo.
+Log a KNN training run to MLflow, write `metrics.json`, and version it with DVC (`dvc init`, `dvc add`, `dvc status`).
 
 **Estimated time:** ~55 min
 
 ## Lab flow
 
 ```text
-  train model → mlflow.start_run → log params/metrics/model → write metrics.json
+  train model → MLflow log → metrics.json → dvc add → metrics.json.dvc
 ```
 
 ## Tasks
 
 1. Open `notebooks/lab06_mlflow_experiment_log.ipynb` (recommended) or `scripts/lab06_mlflow_experiment_log.py`.
 2. Run all cells; note the `run_id` and SQLite tracking DB path.
-3. Launch MLflow UI: `mlflow ui --backend-store-uri sqlite:///scripts/output/mlflow.db` (from `day-04/scripts`).
-4. Classroom DVC extension: `dvc add scripts/output/metrics.json` to version the metrics file.
+3. Confirm DVC: `output/metrics.json.dvc` exists under `scripts/` and `dvc status` is clean.
+4. Launch MLflow UI: `mlflow ui --backend-store-uri sqlite:///scripts/output/mlflow.db` (from `day-04/scripts`).
 
 ## Example result
 
@@ -251,7 +251,8 @@ Log a KNN training run to MLflow and write a `metrics.json` artifact suitable fo
 experiment: cisco-aiml-day04-lending-club
 accuracy: 0.5800
 tracking db: mlflow.db
-metrics artifact (DVC demo): metrics.json
+metrics artifact: metrics.json
+DVC pointer: output/metrics.json.dvc
 ```
 
 ## Success criteria
@@ -259,5 +260,6 @@ metrics artifact (DVC demo): metrics.json
 * MLflow experiment and run created without error.
 * Parameters (`k`) and metric (`accuracy`) logged.
 * `scripts/output/metrics.json` exists after the run.
+* `scripts/output/metrics.json.dvc` created; `dvc status` reports no changes pending.
 
 ---
