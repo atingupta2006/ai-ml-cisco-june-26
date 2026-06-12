@@ -61,7 +61,7 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 | Vector space | ✅ | Lab 2 vector space section |
 | ML models intro; types of ML problems | ✅ 📋 | Lab 3 problem-types table |
 | Linear regression; OLS | ✅ | `lab05_linear_regression_fit.ipynb` |
-| Gradient descent | 📋 | Lab 5 concept section |
+| Gradient descent | ✅ | Lab 5 GD loop vs OLS |
 | LR metrics | ✅ | `lab06_lr_evaluation_metrics.ipynb` |
 | L1 / L2 | ✅ | Lab 6 Ridge/Lasso extension |
 
@@ -103,9 +103,9 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 |----------------|--------|----------|
 | Clustering & segmentation | ✅ | Labs 1, 6 |
 | K-Means; find best K | ✅ | Labs 1–2 |
-| Spectral clustering | 📋 | Lab 3 syllabus note |
+| Spectral clustering | ✅ | Lab 3 Spectral comparison (§2b) |
 | DBSCAN | ✅ | `lab03_dbscan_clusters.ipynb` |
-| OPTICS | 📋 | Lab 3 syllabus note |
+| OPTICS | ✅ | Lab 3 OPTICS comparison (§2b) |
 | Multi-cluster analysis | ✅ | `lab05_nyse_multi_cluster_view.ipynb` |
 | Clustering evaluation metrics | ✅ | `lab04_cluster_metrics.ipynb` |
 
@@ -118,7 +118,7 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 | Anomaly detection | ✅ | All labs |
 | Outlier types | ✅ | Lab 1 IQR |
 | Detection methods | ✅ | Lab 1 methods table |
-| Prediction outliers | 📋 | Lab 1 prediction-outliers note |
+| Prediction outliers | ✅ | Lab 1 residual / probability demo (§3b) |
 | Imbalanced data | ✅ | `lab02_imbalance_analysis.ipynb` |
 | Re-sampling; over/under-sampling | ✅ | `lab03_resampling_lab.ipynb` |
 | Linear / proximity / ensemble models | ✅ | Labs 3–5 + capstone |
@@ -129,8 +129,7 @@ Maps every item in [course-content.txt](../course-content.txt) to labs, notebook
 
 These appear in **Day 1 Lab 1 worksheets** or instructor slides — not every bullet needs executable code:
 
-- AI maturity levels, future tech headlines, organizational AI roles
-- Spectral / OPTICS algorithms (concept + when to use; DBSCAN is the hands-on density method)
+- AI maturity levels, future tech headlines, organizational AI roles (Day 1 worksheet)
 - DVC hands-on in Lab 6 requires `dvc` in the student environment (`requirements-student.txt`)
 
 ---
@@ -138,4 +137,5 @@ These appear in **Day 1 Lab 1 worksheets** or instructor slides — not every bu
 ## Maintainer
 
 Regenerate topic inserts: `cd GH/tools && python enrich_topic_coverage.py`  
+Gap-closure extensions: `python enrich_gap_closure.py`  
 See also: [syllabus-coverage.md](syllabus-coverage.md)
