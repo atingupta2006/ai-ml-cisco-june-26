@@ -25,12 +25,12 @@ Kaggle reference: [Lending Club](https://www.kaggle.com/wordsforthewise/lending-
 
 | Lab | Topic | Notebook / script |
 |-----|--------|--------|
-| 1 | Distance metrics | `notebooks/lab01_distance_metrics.ipynb` · `scripts/lab01_distance_metrics.py` |
-| 2 | KNN classifier | `notebooks/lab02_knn_classifier.ipynb` · `scripts/lab02_knn_classifier.py` |
-| 3 | Choose K | `notebooks/lab03_choose_k.ipynb` · `scripts/lab03_choose_k.py` |
-| 4 | FastAPI scoring API | `notebooks/lab04_fastapi_scoring_api.ipynb` · `scripts/lab04_fastapi_scoring_api.py` |
-| 5 | FeatureTools auto FE | `notebooks/lab05_featuretools_auto_fe.ipynb` · `scripts/lab05_featuretools_auto_fe.py` |
-| 6 | MLflow experiment log | `notebooks/lab06_mlflow_experiment_log.ipynb` · `scripts/lab06_mlflow_experiment_log.py` |
+| 1 | Distance metrics | `notebooks/lab01_distance_metrics.ipynb` · `lab01_distance_metrics.py` |
+| 2 | KNN classifier | `notebooks/lab02_knn_classifier.ipynb` · `lab02_knn_classifier.py` |
+| 3 | Choose K | `notebooks/lab03_choose_k.ipynb` · `lab03_choose_k.py` |
+| 4 | FastAPI scoring API | `notebooks/lab04_fastapi_scoring_api.ipynb` · `lab04_fastapi_scoring_api.py` |
+| 5 | FeatureTools auto FE | `notebooks/lab05_featuretools_auto_fe.ipynb` · `lab05_featuretools_auto_fe.py` |
+| 6 | MLflow experiment log | `notebooks/lab06_mlflow_experiment_log.ipynb` · `lab06_mlflow_experiment_log.py` |
 
 ## MLflow UI demo (instructor)
 

@@ -10,7 +10,7 @@
 
 **Environment:** one venv for all days — `setup_student_env.ps1` or `setup_student_env.sh` at repo root. Kernel: **Python (cisco-aiml-lab)**. [Lab execution guide](../../docs/lab-execution-guide.md).
 
-Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01` … `lab06`).
+Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 ---
 
@@ -56,7 +56,7 @@ Practice core Python data structures — lists, tuples, dictionaries, and sets �
 
 ## Tasks
 
-1. Open `notebooks/lab01_python_structures.ipynb` (recommended) or `scripts/lab01_python_structures.py`.
+1. Open `notebooks/lab01_python_structures.ipynb` (recommended) or `lab01_python_structures.py`.
 2. Run all cells / the script and read the markdown explanations for list, tuple, dict, and set.
 3. In the notebook, try appending a city — then reset to 4 cities for the checkpoint.
 4. Answer the reflection questions at the end of the notebook.
@@ -92,7 +92,7 @@ Create NumPy arrays, apply vectorized math, and combine columns into a 2-D matri
 
 ## Tasks
 
-1. Open `notebooks/lab02_numpy_arrays.ipynb` (recommended) or `scripts/lab02_numpy_arrays.py`.
+1. Open `notebooks/lab02_numpy_arrays.ipynb` (recommended) or `lab02_numpy_arrays.py`.
 2. Run through vectorization, z-score normalization, and `column_stack` sections.
 3. Complete the experiment cell — change one vote and observe downstream updates.
 4. Compare `matrix.sum(axis=0)` with `col_means` in the axis reductions section.
@@ -130,7 +130,7 @@ Load the Zomato restaurants CSV with Pandas and perform first-pass exploration.
 ## Tasks
 
 1. Confirm the dataset path in [data/README.md](../../data/README.md): `zomato/zomato_restaurants.csv` (**500** rows).
-2. Open `notebooks/lab03_pandas_zomato_load.ipynb` (recommended) or `scripts/lab03_pandas_zomato_load.py`.
+2. Open `notebooks/lab03_pandas_zomato_load.ipynb` (recommended) or `lab03_pandas_zomato_load.py`.
 3. Run all cells; verify `df.shape == (500, 9)`.
 4. Complete the categorical exploration and filtering sections; note mean rating ≈ **3.70**.
 
@@ -165,8 +165,8 @@ Build exploratory plots with Seaborn — rating distribution and cost by city.
 
 ## Tasks
 
-1. Open `notebooks/lab04_seaborn_plots.ipynb` (recommended) or `scripts/lab04_seaborn_plots.py`.
-2. Run all cells; confirm `scripts/output/rating_distribution.png` is saved.
+1. Open `notebooks/lab04_seaborn_plots.ipynb` (recommended) or `lab04_seaborn_plots.py`.
+2. Run all cells; confirm `output/rating_distribution.png` is saved.
 3. Experiment with histogram `bins` (10 vs 20) in the notebook.
 4. Describe one insight from the rating histogram and one from the cost box plot.
 
@@ -180,7 +180,7 @@ top city by avg cost: Kolkata (1402)
 
 ## Success criteria
 
-* `scripts/output/rating_distribution.png` is created.
+* `output/rating_distribution.png` is created.
 * Mean rating printed ≈ **3.70**.
 * You can describe one insight from each plot.
 
@@ -202,7 +202,7 @@ Fit ordinary least squares (OLS) linear regression to predict `aggregate_rating`
 
 ## Tasks
 
-1. Open `notebooks/lab05_linear_regression_fit.ipynb` (recommended) or `scripts/lab05_linear_regression_fit.py`.
+1. Open `notebooks/lab05_linear_regression_fit.ipynb` (recommended) or `lab05_linear_regression_fit.py`.
 2. Fit the model and compare predicted vs actual ratings for the first three rows.
 3. Complete the extension cell — add `online_order` encoded as 0/1 and refit.
 4. Relate intercept and coefficients to the OLS equation \( \hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 \).
@@ -239,7 +239,7 @@ Split data into train/test sets and evaluate regression with **R²**, **MSE**, *
 
 ## Tasks
 
-1. Open `notebooks/lab06_lr_evaluation_metrics.ipynb` (recommended) or `scripts/lab06_lr_evaluation_metrics.py`.
+1. Open `notebooks/lab06_lr_evaluation_metrics.ipynb` (recommended) or `lab06_lr_evaluation_metrics.py`.
 2. Run all cells; record R², MSE, MAE, and RMSE on the test set.
 3. Review predicted-vs-actual and residual plots.
 4. Compare RMSE (~**0.69**) to the rating range (2.5–4.9) and discuss whether R² near zero is acceptable.

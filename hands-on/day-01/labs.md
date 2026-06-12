@@ -16,7 +16,7 @@ Labs 1, 2, and 5 are **discussion / worksheet** activities (light code).
 
 Labs 3, 4, and 6 are **hands-on** on [`data/team_sales.csv`](data/team_sales.csv) (**20** rows) — use **Excel and/or the Jupyter notebook** (notebooks are the primary path). Lab 6 is a **group Excel activity** with Python verification in the notebook.
 
-> **Note:** The `scripts/` folder is trainer-only and not part of the student handout.
+> **Note:** The `` folder is trainer-only and not part of the student handout.
 
 ---
 

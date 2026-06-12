@@ -25,12 +25,12 @@ Labs aggregate **25** symbols into per-stock features before clustering.
 
 | Lab | Topic | Notebook / script |
 |-----|--------|--------|
-| 1 | K-Means baseline | `notebooks/lab01_kmeans_baseline.ipynb` · `scripts/lab01_kmeans_baseline.py` |
-| 2 | Elbow method | `notebooks/lab02_elbow_method.ipynb` · `scripts/lab02_elbow_method.py` |
-| 3 | DBSCAN clusters | `notebooks/lab03_dbscan_clusters.ipynb` · `scripts/lab03_dbscan_clusters.py` |
-| 4 | Cluster metrics | `notebooks/lab04_cluster_metrics.ipynb` · `scripts/lab04_cluster_metrics.py` |
-| 5 | NYSE multi-cluster view | `notebooks/lab05_nyse_multi_cluster_view.ipynb` · `scripts/lab05_nyse_multi_cluster_view.py` |
-| 6 | Segmentation summary | `notebooks/lab06_segmentation_summary.ipynb` · `scripts/lab06_segmentation_summary.py` |
+| 1 | K-Means baseline | `notebooks/lab01_kmeans_baseline.ipynb` · `lab01_kmeans_baseline.py` |
+| 2 | Elbow method | `notebooks/lab02_elbow_method.ipynb` · `lab02_elbow_method.py` |
+| 3 | DBSCAN clusters | `notebooks/lab03_dbscan_clusters.ipynb` · `lab03_dbscan_clusters.py` |
+| 4 | Cluster metrics | `notebooks/lab04_cluster_metrics.ipynb` · `lab04_cluster_metrics.py` |
+| 5 | NYSE multi-cluster view | `notebooks/lab05_nyse_multi_cluster_view.ipynb` · `lab05_nyse_multi_cluster_view.py` |
+| 6 | Segmentation summary | `notebooks/lab06_segmentation_summary.ipynb` · `lab06_segmentation_summary.py` |
 
 ## Syllabus
 

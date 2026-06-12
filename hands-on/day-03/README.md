@@ -25,12 +25,12 @@ Kaggle reference: [Lending Club](https://www.kaggle.com/wordsforthewise/lending-
 
 | Lab | Topic | Notebook / script |
 |-----|--------|--------|
-| 1 | Probability & log-odds | `notebooks/lab01_probability_exercises.ipynb` · `scripts/lab01_probability_exercises.py` |
-| 2 | Logistic regression | `notebooks/lab02_logistic_regression.ipynb` · `scripts/lab02_logistic_regression.py` |
-| 3 | Confusion matrix & metrics | `notebooks/lab03_confusion_matrix.ipynb` · `scripts/lab03_confusion_matrix.py` |
-| 4 | ROC and AUC | `notebooks/lab04_roc_auc.ipynb` · `scripts/lab04_roc_auc.py` |
-| 5 | sklearn Pipeline | `notebooks/lab05_sklearn_pipeline.ipynb` · `scripts/lab05_sklearn_pipeline.py` |
-| 6 | SHAP interpretability | `notebooks/lab06_shap_interpretability.ipynb` · `scripts/lab06_shap_interpretability.py` |
+| 1 | Probability & log-odds | `notebooks/lab01_probability_exercises.ipynb` · `lab01_probability_exercises.py` |
+| 2 | Logistic regression | `notebooks/lab02_logistic_regression.ipynb` · `lab02_logistic_regression.py` |
+| 3 | Confusion matrix & metrics | `notebooks/lab03_confusion_matrix.ipynb` · `lab03_confusion_matrix.py` |
+| 4 | ROC and AUC | `notebooks/lab04_roc_auc.ipynb` · `lab04_roc_auc.py` |
+| 5 | sklearn Pipeline | `notebooks/lab05_sklearn_pipeline.ipynb` · `lab05_sklearn_pipeline.py` |
+| 6 | SHAP interpretability | `notebooks/lab06_shap_interpretability.ipynb` · `lab06_shap_interpretability.py` |
 
 ## Syllabus
 

@@ -34,7 +34,7 @@ pip install -q -r requirements-student.txt
 
 python -m ipykernel install --user --name cisco-aiml-lab --display-name "Python (cisco-aiml-lab)"
 
-for d in hands-on/day-*/scripts/output; do
+for d in hands-on/day-*/output; do
   mkdir -p "$d"
 done
 

@@ -10,7 +10,7 @@
 
 **Environment:** one venv for all days — `setup_student_env.ps1` or `setup_student_env.sh` at repo root. Kernel: **Python (cisco-aiml-lab)**. [Lab execution guide](../../docs/lab-execution-guide.md).
 
-Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01` … `lab06`).
+Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 **Target:** `is_fraud` (1 = fraudulent transaction).
 
@@ -58,7 +58,7 @@ Explore statistical outliers in `amount` and `distance_from_home` and compare fr
 
 ## Tasks
 
-1. Open `notebooks/lab01_outlier_exploration.ipynb` (recommended) or `scripts/lab01_outlier_exploration.py`.
+1. Open `notebooks/lab01_outlier_exploration.ipynb` (recommended) or `lab01_outlier_exploration.py`.
 2. Run all cells and compare mean amount for fraud vs legit rows.
 3. Identify transactions above the IQR upper bound for `amount`.
 4. Discuss why rule-based outlier flags alone are insufficient for fraud.
@@ -97,7 +97,7 @@ Quantify class imbalance and show why a majority-class baseline fails on fraud d
 
 ## Tasks
 
-1. Open `notebooks/lab02_imbalance_analysis.ipynb` (recommended) or `scripts/lab02_imbalance_analysis.py`.
+1. Open `notebooks/lab02_imbalance_analysis.ipynb` (recommended) or `lab02_imbalance_analysis.py`.
 2. Run all cells and note the imbalance ratio.
 3. Explain why **99%** accuracy can still mean **0** fraud detections.
 4. List metrics better suited to rare events (precision, recall, F1).
@@ -133,7 +133,7 @@ Oversample the minority fraud class on the training set and compare F1 before an
 
 ## Tasks
 
-1. Open `notebooks/lab03_resampling_lab.ipynb` (recommended) or `scripts/lab03_resampling_lab.py`.
+1. Open `notebooks/lab03_resampling_lab.ipynb` (recommended) or `lab03_resampling_lab.py`.
 2. Run all cells and compare F1 with and without oversampling.
 3. Try undersampling the majority class instead (optional extension).
 4. Discuss overfitting risk when oversampling a tiny fraud set.
@@ -169,7 +169,7 @@ Use Local Outlier Factor (LOF) — a proximity-based method — trained on legit
 
 ## Tasks
 
-1. Open `notebooks/lab04_proximity_detector.ipynb` (recommended) or `scripts/lab04_proximity_detector.py`.
+1. Open `notebooks/lab04_proximity_detector.ipynb` (recommended) or `lab04_proximity_detector.py`.
 2. Run all cells; note high recall but lower precision.
 3. Adjust `contamination` (e.g. 0.01 vs 0.05) and observe metric changes.
 4. Compare LOF (unsupervised) to supervised models from Day 3.
@@ -205,7 +205,7 @@ Train a Random Forest ensemble with `class_weight='balanced'` for fraud classifi
 
 ## Tasks
 
-1. Open `notebooks/lab05_ensemble_detector.ipynb` (recommended) or `scripts/lab05_ensemble_detector.py`.
+1. Open `notebooks/lab05_ensemble_detector.ipynb` (recommended) or `lab05_ensemble_detector.py`.
 2. Run all cells and record fraud-class metrics.
 3. Compare F1 to LOF (Lab 4) and resampled logistic regression (Lab 3).
 4. Increase `n_estimators` to 200 — does F1 change materially?
@@ -242,9 +242,9 @@ Compare baseline, logistic regression, LOF, and Random Forest; save a JSON repor
 
 ## Tasks
 
-1. Open `notebooks/lab06_capstone_fraud_report.ipynb` (recommended) or `scripts/lab06_capstone_fraud_report.py`.
+1. Open `notebooks/lab06_capstone_fraud_report.ipynb` (recommended) or `lab06_capstone_fraud_report.py`.
 2. Run all cells and review the ranked metrics table.
-3. Open `scripts/output/fraud_detection_report.json`.
+3. Open `output/fraud_detection_report.json`.
 4. Write a 3-sentence executive summary: which model to deploy and why.
 
 ## Example result
@@ -257,7 +257,7 @@ report saved: fraud_detection_report.json
 ## Success criteria
 
 * Comparison table with at least **4** models.
-* `scripts/output/fraud_detection_report.json` created.
+* `output/fraud_detection_report.json` created.
 * You can recommend a model balancing precision and recall for fraud.
 
 ---

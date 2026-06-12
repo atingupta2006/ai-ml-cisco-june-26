@@ -28,7 +28,7 @@ Read [lab execution guide](../../docs/lab-execution-guide.md) and open [labs.md]
 | 5 | Tool landscape | `notebooks/lab05_tool_landscape.ipynb` · worksheet + exercises |
 | 6 | Excel group activity | `notebooks/lab06_excel_group_activity.ipynb` · Excel + verification |
 
-Students use **`notebooks/`** only. Trainer Python scripts (if any) are not published in the student repo.
+Run labs from **`notebooks/`** only. Generated files appear in **`output/`**.
 
 ## Syllabus
 

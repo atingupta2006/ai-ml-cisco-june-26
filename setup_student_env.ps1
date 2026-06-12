@@ -28,7 +28,7 @@ python -m pip install -q -r requirements-student.txt
 
 python -m ipykernel install --user --name cisco-aiml-lab --display-name "Python (cisco-aiml-lab)"
 
-Get-ChildItem "hands-on\day-*\scripts" -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+Get-ChildItem "hands-on\day-*" -Directory | ForEach-Object {
     New-Item -ItemType Directory -Force -Path (Join-Path $_.FullName "output") | Out-Null
 }
 

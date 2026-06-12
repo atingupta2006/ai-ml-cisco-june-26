@@ -10,7 +10,7 @@
 
 **Environment:** one venv for all days — `setup_student_env.ps1` or `setup_student_env.sh` at repo root (includes `shap`). Kernel: **Python (cisco-aiml-lab)**. [Lab execution guide](../../docs/lab-execution-guide.md).
 
-Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01` … `lab06`).
+Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 **Target variable:** `default` = 1 when `loan_status` is `Charged Off` or `Late (31-120 days)`, else 0.
 
@@ -58,7 +58,7 @@ Connect observed default rates to probability, odds, and log-odds (logit) — th
 
 ## Tasks
 
-1. Open `notebooks/lab01_probability_exercises.ipynb` (recommended) or `scripts/lab01_probability_exercises.py`.
+1. Open `notebooks/lab01_probability_exercises.ipynb` (recommended) or `lab01_probability_exercises.py`.
 2. Run all cells; note `P(default)` from the **1,000**-row sample.
 3. Complete the manual odds check and inverse-logit cells.
 4. Answer reflection questions linking log-odds to Lab 2 logistic regression.
@@ -96,7 +96,7 @@ Fit logistic regression to predict loan default from numeric borrower features.
 
 ## Tasks
 
-1. Open `notebooks/lab02_logistic_regression.ipynb` (recommended) or `scripts/lab02_logistic_regression.py`.
+1. Open `notebooks/lab02_logistic_regression.ipynb` (recommended) or `lab02_logistic_regression.py`.
 2. Fit the model; inspect positive coefficients for `int_rate` and `dti`.
 3. Compare `predict_proba` vs `predict` in the comparison table (first 3 test rows).
 4. Complete the manual log-odds cell and relate it to the sigmoid plot.
@@ -134,7 +134,7 @@ Evaluate classifier performance with confusion matrix, accuracy, precision, reca
 
 ## Tasks
 
-1. Open `notebooks/lab03_confusion_matrix.ipynb` (recommended) or `scripts/lab03_confusion_matrix.py`.
+1. Open `notebooks/lab03_confusion_matrix.ipynb` (recommended) or `lab03_confusion_matrix.py`.
 2. Read the heatmap and label TN, FP, FN, TP.
 3. Record accuracy, precision, recall, and F1.
 4. Review the threshold table (0.3–0.7) and discuss precision vs recall at **0.4** vs **0.5**.
@@ -173,8 +173,8 @@ Plot the ROC curve and compute area under the curve (AUC) for ranking ability ac
 
 ## Tasks
 
-1. Open `notebooks/lab04_roc_auc.ipynb` (recommended) or `scripts/lab04_roc_auc.py`.
-2. Run all cells; confirm `scripts/output/roc_curve.png` is saved.
+1. Open `notebooks/lab04_roc_auc.ipynb` (recommended) or `lab04_roc_auc.py`.
+2. Run all cells; confirm `output/roc_curve.png` is saved.
 3. Compare AUC (~**0.63**) to **0.5** random baseline.
 4. Review the Youden's J point — threshold where TPR − FPR is largest.
 
@@ -187,7 +187,7 @@ plot saved: roc_curve.png
 
 ## Success criteria
 
-* `scripts/output/roc_curve.png` is created.
+* `output/roc_curve.png` is created.
 * AUC printed and **> 0.5**.
 * You can explain what the diagonal dashed line represents.
 
@@ -209,7 +209,7 @@ Build an end-to-end `Pipeline` with `ColumnTransformer` for scaling numeric colu
 
 ## Tasks
 
-1. Open `notebooks/lab05_sklearn_pipeline.ipynb` (recommended) or `scripts/lab05_sklearn_pipeline.py`.
+1. Open `notebooks/lab05_sklearn_pipeline.ipynb` (recommended) or `lab05_sklearn_pipeline.py`.
 2. Run all cells and list pipeline step names.
 3. Inspect which columns are numeric vs categorical in `_data.py`.
 4. Compare full pipeline accuracy to the numeric-only baseline in the notebook extension.
@@ -245,10 +245,10 @@ Use SHAP values to explain which features drive individual default predictions.
 
 ## Tasks
 
-1. Open `notebooks/lab06_shap_interpretability.ipynb` (recommended) or `scripts/lab06_shap_interpretability.py`.
+1. Open `notebooks/lab06_shap_interpretability.ipynb` (recommended) or `lab06_shap_interpretability.py`.
 2. Run all cells; note the feature with highest mean |SHAP|.
 3. Discuss why `int_rate` often ranks highly for credit risk.
-4. Inspect the SHAP bar and waterfall plots saved to `scripts/output/`.
+4. Inspect the SHAP bar and waterfall plots saved to `output/`.
 
 ## Example result
 

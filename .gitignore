@@ -4,14 +4,22 @@ tools/
 data-heavy/
 hands-on/day-*/notebooks-extra/
 
-# --- Generated during labs ---
-hands-on/**/scripts/output/
-hands-on/**/scripts/mlruns/
-# DVC local state (Day 4 Lab 6 — students generate on their machine)
-hands-on/day-04/scripts/.dvc/
-hands-on/day-04/scripts/.dvcignore
-hands-on/day-04/scripts/dvc.lock
-hands-on/day-04/scripts/output/*.dvc
+# --- Student lab artifacts (generated when notebooks run) ---
+hands-on/**/output/*
+!hands-on/**/output/.gitkeep
+**/mlruns/
+mlruns/
+
+# --- Trainer-only Python scripts (see internal/trainer-scripts/) ---
+hands-on/**/scripts/
+
+# --- DVC local state (Day 4 Lab 6 — students generate on their machine) ---
+hands-on/day-04/.dvc/
+hands-on/day-04/.dvcignore
+hands-on/day-04/dvc.lock
+hands-on/day-04/output/*.dvc
+
+# --- Python bytecode ---
 **/__pycache__/
 *.py[cod]
 *.pyo

@@ -10,7 +10,7 @@
 
 **Environment:** one venv for all days — `setup_student_env.ps1` or `setup_student_env.sh` at repo root (includes FastAPI, FeatureTools, MLflow). Kernel: **Python (cisco-aiml-lab)**. [Lab execution guide](../../docs/lab-execution-guide.md).
 
-Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01` … `lab06`).
+Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 ---
 
@@ -56,7 +56,7 @@ Compute Euclidean, Manhattan, and cosine distances between two loan feature vect
 
 ## Tasks
 
-1. Open `notebooks/lab01_distance_metrics.ipynb` (recommended) or `scripts/lab01_distance_metrics.py`.
+1. Open `notebooks/lab01_distance_metrics.ipynb` (recommended) or `lab01_distance_metrics.py`.
 2. Run all cells and compare the three distance measures.
 3. Change to rows 10 and 50 (`iloc[9]`, `iloc[49]`) and note which metric changes most.
 4. Explain why scaling matters before distance-based algorithms (preview for Lab 2).
@@ -93,7 +93,7 @@ Train a K-Nearest Neighbors classifier with **k = 5** on scaled numeric loan fea
 
 ## Tasks
 
-1. Open `notebooks/lab02_knn_classifier.ipynb` (recommended) or `scripts/lab02_knn_classifier.py`.
+1. Open `notebooks/lab02_knn_classifier.ipynb` (recommended) or `lab02_knn_classifier.py`.
 2. Run all cells and record test accuracy.
 3. Inspect sample predictions — are both classes (0 and 1) predicted?
 4. Compare accuracy to Day 3 logistic regression (~0.59).
@@ -130,7 +130,7 @@ Sweep candidate **k** values and pick the one with highest test accuracy.
 
 ## Tasks
 
-1. Open `notebooks/lab03_choose_k.ipynb` (recommended) or `scripts/lab03_choose_k.py`.
+1. Open `notebooks/lab03_choose_k.ipynb` (recommended) or `lab03_choose_k.py`.
 2. Run all cells and identify the best **k**.
 3. Plot accuracy vs k (optional matplotlib extension).
 4. Discuss bias–variance: what happens at k=1 vs k=15?
@@ -165,7 +165,7 @@ Expose the trained KNN model as a REST API and verify it with FastAPI's `TestCli
 
 ## Tasks
 
-1. Open `notebooks/lab04_fastapi_scoring_api.ipynb` (recommended) or `scripts/lab04_fastapi_scoring_api.py`.
+1. Open `notebooks/lab04_fastapi_scoring_api.ipynb` (recommended) or `lab04_fastapi_scoring_api.py`.
 2. Run all cells and confirm HTTP **200** responses.
 3. To run a live server: `uvicorn lab04_fastapi_scoring_api:app --reload` then POST to `http://127.0.0.1:8000/predict`.
 4. Change the sample JSON body and observe `default_probability` change.
@@ -202,7 +202,7 @@ Use FeatureTools Deep Feature Synthesis (DFS) to auto-generate features from the
 
 ## Tasks
 
-1. Open `notebooks/lab05_featuretools_auto_fe.ipynb` (recommended) or `scripts/lab05_featuretools_auto_fe.py`.
+1. Open `notebooks/lab05_featuretools_auto_fe.ipynb` (recommended) or `lab05_featuretools_auto_fe.py`.
 2. Run all cells; note input vs engineered feature counts.
 3. Review top features correlated with `default`.
 4. Compare DFS output columns to the hand-picked Day 3 features.
@@ -240,10 +240,10 @@ Log a KNN training run to MLflow, write `metrics.json`, and version it with DVC 
 
 ## Tasks
 
-1. Open `notebooks/lab06_mlflow_experiment_log.ipynb` (recommended) or `scripts/lab06_mlflow_experiment_log.py`.
+1. Open `notebooks/lab06_mlflow_experiment_log.ipynb` (recommended) or `lab06_mlflow_experiment_log.py`.
 2. Run all cells; note the `run_id` and SQLite tracking DB path.
-3. Confirm DVC: `output/metrics.json.dvc` exists under `scripts/` and `dvc status` is clean.
-4. Launch MLflow UI: `mlflow ui --backend-store-uri sqlite:///scripts/output/mlflow.db` (from `day-04/scripts`).
+3. Confirm DVC: `output/metrics.json.dvc` exists under `` and `dvc status` is clean.
+4. Launch MLflow UI: `mlflow ui --backend-store-uri sqlite:///mlflow.db` (from `day-04/output`).
 
 ## Example result
 
@@ -259,7 +259,7 @@ DVC pointer: output/metrics.json.dvc
 
 * MLflow experiment and run created without error.
 * Parameters (`k`) and metric (`accuracy`) logged.
-* `scripts/output/metrics.json` exists after the run.
-* `scripts/output/metrics.json.dvc` created; `dvc status` reports no changes pending.
+* `output/metrics.json` exists after the run.
+* `output/metrics.json.dvc` created; `dvc status` reports no changes pending.
 
 ---

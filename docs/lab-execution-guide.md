@@ -2,7 +2,7 @@
 
 ## One environment for all six days
 
-Use **one** virtual environment at `.venv` in the repository root — do not create a new venv inside each `day-NN/scripts/` folder.
+Use **one** virtual environment at `.venv` in the repository root.
 
 ### First-time setup
 
@@ -21,7 +21,7 @@ chmod +x setup_student_env.sh
 source .venv/bin/activate
 ```
 
-Requires **Python 3.10+**. The script installs packages from [`requirements-student.txt`](../requirements-student.txt) and registers the Jupyter kernel **Python (cisco-aiml-lab)**.
+Requires **Python 3.10+**. The script installs packages from [`requirements-student.txt`](../requirements-student.txt), registers the Jupyter kernel **Python (cisco-aiml-lab)**, and creates empty `output/` folders under each day.
 
 ### Every lab session
 
@@ -33,9 +33,7 @@ jupyter lab
 
 In Jupyter: **Kernel → Change kernel → Python (cisco-aiml-lab)**.
 
-**Day 1:** Work through `notebooks/lab01` … `lab06` **in order**. Labs 1, 2, and 5 are lighter worksheets; Labs 3, 4, and 6 are hands-on on `team_sales.csv` (Excel + pandas). Day 1 has **no student scripts** — notebooks only.
-
-**Days 2–6:** Notebooks are primary; optional `scripts/` mirrors exist for terminal users.
+Work through `notebooks/lab01` … `lab06` **in order**. Saved plots, JSON reports, and MLflow files land in `hands-on/day-NN/output/`.
 
 ---
 
@@ -43,7 +41,7 @@ In Jupyter: **Kernel → Change kernel → Python (cisco-aiml-lab)**.
 
 1. Open the day folder under `hands-on/day-NN/`.
 2. Read `README.md` then `labs.md`.
-3. Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`). On Days 2–6 you may alternatively use `scripts/`.
+3. Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 4. Compare outputs to **Example result** and **Success criteria** in each lab.
 
 ---
@@ -55,12 +53,16 @@ source .venv/bin/activate
 python -c "import pandas, numpy, sklearn, matplotlib, seaborn, shap; print('packages ok')"
 ```
 
-Run a script smoke test (example Day 2):
+Open `hands-on/day-01/notebooks/lab01_ai_ml_ds.ipynb` and run the first code cell to confirm the kernel works.
 
-```bash
-cd hands-on/day-02/scripts
-python lab01_python_structures.py
-```
+---
+
+## Generated folders (normal)
+
+| Folder | Created by | Action |
+|--------|------------|--------|
+| `hands-on/day-NN/output/` | Notebooks saving plots, reports, `mlflow.db` | Keep; gitignored except `.gitkeep` |
+| `mlruns/` or `**/mlruns/` | MLflow default artifact store (some environments) | Safe to delete; not required for class |
 
 ---
 

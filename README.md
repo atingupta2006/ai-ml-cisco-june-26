@@ -20,7 +20,7 @@
 ├── data/                 # lab datasets (500 / 1000 rows)
 └── hands-on/day-01 … day-06/
     ├── notebooks/        # core labs (required)
-    └── scripts/          # optional .py mirrors (Days 2–6; Day 1 notebooks only)
+    └── output/           # generated plots & artifacts (created when you run labs)
 ```
 
 ## Quick setup

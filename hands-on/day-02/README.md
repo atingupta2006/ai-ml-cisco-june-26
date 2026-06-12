@@ -23,12 +23,12 @@ Kaggle reference: [Zomato restaurants data](https://www.kaggle.com/shrutimehta/z
 
 | Lab | Topic | Notebook / script |
 |-----|--------|--------|
-| 1 | Python structures | `notebooks/lab01_python_structures.ipynb` · `scripts/lab01_python_structures.py` |
-| 2 | NumPy arrays | `notebooks/lab02_numpy_arrays.ipynb` · `scripts/lab02_numpy_arrays.py` |
-| 3 | Pandas Zomato load | `notebooks/lab03_pandas_zomato_load.ipynb` · `scripts/lab03_pandas_zomato_load.py` |
-| 4 | Seaborn plots | `notebooks/lab04_seaborn_plots.ipynb` · `scripts/lab04_seaborn_plots.py` |
-| 5 | Linear regression fit | `notebooks/lab05_linear_regression_fit.ipynb` · `scripts/lab05_linear_regression_fit.py` |
-| 6 | LR evaluation metrics | `notebooks/lab06_lr_evaluation_metrics.ipynb` · `scripts/lab06_lr_evaluation_metrics.py` |
+| 1 | Python structures | `notebooks/lab01_python_structures.ipynb` · `lab01_python_structures.py` |
+| 2 | NumPy arrays | `notebooks/lab02_numpy_arrays.ipynb` · `lab02_numpy_arrays.py` |
+| 3 | Pandas Zomato load | `notebooks/lab03_pandas_zomato_load.ipynb` · `lab03_pandas_zomato_load.py` |
+| 4 | Seaborn plots | `notebooks/lab04_seaborn_plots.ipynb` · `lab04_seaborn_plots.py` |
+| 5 | Linear regression fit | `notebooks/lab05_linear_regression_fit.ipynb` · `lab05_linear_regression_fit.py` |
+| 6 | LR evaluation metrics | `notebooks/lab06_lr_evaluation_metrics.ipynb` · `lab06_lr_evaluation_metrics.py` |
 
 ## Syllabus
 
