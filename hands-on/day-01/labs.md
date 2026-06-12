@@ -1,6 +1,6 @@
 # Day 01 — Labs
 
-**Theme:** Data Science Introduction | **Duration:** Concepts + Excel group activity
+**Theme:** Data Science Introduction | **Lab time (6 labs):** ~215 min (~3.6 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -27,6 +27,19 @@ Labs 3, 4, and 6 use the team sales file [`data/team_sales.csv`](data/team_sales
 | Lab 5 | Worksheet: 3+ categories with 2+ tools each |
 | Lab 6 | **15** teams grew; top region **North** |
 
+
+## Lab pacing
+
+| Lab | Est. time |
+|-----|-----------|
+| Lab 1 | ~30 min |
+| Lab 2 | ~30 min |
+| Lab 3 | ~35 min |
+| Lab 4 | ~40 min |
+| Lab 5 | ~35 min |
+| Lab 6 | ~45 min |
+| **Total** | **~215 min** |
+
 ---
 
 # Lab 1 — AI vs ML vs DS
@@ -34,6 +47,8 @@ Labs 3, 4, and 6 use the team sales file [`data/team_sales.csv`](data/team_sales
 ## Objective
 
 Distinguish Artificial Intelligence, Machine Learning, and Data Science using the Netflix-style use-case from the morning session.
+
+**Estimated time:** ~30 min
 
 ## Lab flow
 
@@ -71,6 +86,8 @@ Distinguish Artificial Intelligence, Machine Learning, and Data Science using th
 
 Map the CRISP-DM / data science lifecycle phases to a business problem your table chooses.
 
+**Estimated time:** ~30 min
+
 ## Lab flow
 
 ```text
@@ -106,6 +123,8 @@ Map the CRISP-DM / data science lifecycle phases to a business problem your tabl
 ## Objective
 
 Compute descriptive statistics on Q2 team sales — in Excel or with the verification script.
+
+**Estimated time:** ~35 min
 
 ## Lab flow
 
@@ -143,6 +162,8 @@ std q2_sales: 34.74
 
 Practice random sampling and test a simple growth hypothesis: "Did Q2 sales exceed Q1?"
 
+**Estimated time:** ~40 min
+
 ## Lab flow
 
 ```text
@@ -178,6 +199,8 @@ growth rate (q2 > q1): 0.75
 ## Objective
 
 Categorize data science tools from the course into storage, compute, visualization, and ML/MLOps buckets.
+
+**Estimated time:** ~35 min
 
 ## Lab flow
 
@@ -215,6 +238,8 @@ Categorize data science tools from the course into storage, compute, visualizati
 ## Objective
 
 Complete a group Excel analysis of regional sales and verify totals against the checkpoint script.
+
+**Estimated time:** ~45 min
 
 ## Lab flow
 

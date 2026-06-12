@@ -1,6 +1,6 @@
 # Day 06 — Labs
 
-**Theme:** Anomaly Detection | **Dataset:** [Credit card transactions](../../data/credit-card/credit_card_transactions.csv) (**1,000** rows, **10** fraud)
+**Theme:** Anomaly Detection | **Lab time (6 labs):** ~285 min (~4.8 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -27,6 +27,19 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 | Lab 5 | Random Forest F1 ≈ **0.67** |
 | Lab 6 | Best model **logistic_regression**; F1 ≈ **0.80** |
 
+
+## Lab pacing
+
+| Lab | Est. time |
+|-----|-----------|
+| Lab 1 | ~45 min |
+| Lab 2 | ~40 min |
+| Lab 3 | ~45 min |
+| Lab 4 | ~50 min |
+| Lab 5 | ~50 min |
+| Lab 6 | ~55 min |
+| **Total** | **~285 min** |
+
 ---
 
 # Lab 1 — Outlier exploration
@@ -34,6 +47,8 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 ## Objective
 
 Explore statistical outliers in `amount` and `distance_from_home` and compare fraud vs legitimate transactions.
+
+**Estimated time:** ~45 min
 
 ## Lab flow
 
@@ -72,6 +87,8 @@ max distance (fraud): 51.72
 
 Quantify class imbalance and show why a majority-class baseline fails on fraud detection.
 
+**Estimated time:** ~40 min
+
 ## Lab flow
 
 ```text
@@ -105,6 +122,8 @@ baseline F1 (fraud): 0.0000
 ## Objective
 
 Oversample the minority fraud class on the training set and compare F1 before and after.
+
+**Estimated time:** ~45 min
 
 ## Lab flow
 
@@ -140,6 +159,8 @@ F1 fraud (oversampled train): 0.6667
 
 Use Local Outlier Factor (LOF) — a proximity-based method — trained on legitimate transactions to flag anomalies.
 
+**Estimated time:** ~50 min
+
 ## Lab flow
 
 ```text
@@ -173,6 +194,8 @@ recall (fraud): 1.0000
 ## Objective
 
 Train a Random Forest ensemble with `class_weight='balanced'` for fraud classification.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
@@ -208,6 +231,8 @@ F1 (fraud): 0.6667
 ## Objective
 
 Compare baseline, logistic regression, LOF, and Random Forest; save a JSON report of results.
+
+**Estimated time:** ~55 min
 
 ## Lab flow
 

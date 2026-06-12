@@ -1,6 +1,6 @@
 # Day 04 — Labs
 
-**Theme:** Distance-Based ML & MLOps | **Dataset:** [Lending Club sample](../../data/lending-club/lending_club_sample.csv) (**1,000** rows)
+**Theme:** Distance-Based ML & MLOps | **Lab time (6 labs):** ~285 min (~4.8 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -25,6 +25,19 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 | Lab 5 | Feature matrix shape **(1000, 6)**; top corr **int_rate** |
 | Lab 6 | MLflow run logged; accuracy ≈ **0.58**; `metrics.json` written |
 
+
+## Lab pacing
+
+| Lab | Est. time |
+|-----|-----------|
+| Lab 1 | ~40 min |
+| Lab 2 | ~50 min |
+| Lab 3 | ~35 min |
+| Lab 4 | ~55 min |
+| Lab 5 | ~50 min |
+| Lab 6 | ~55 min |
+| **Total** | **~285 min** |
+
 ---
 
 # Lab 1 — Distance metrics
@@ -32,6 +45,8 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 ## Objective
 
 Compute Euclidean, Manhattan, and cosine distances between two loan feature vectors.
+
+**Estimated time:** ~40 min
 
 ## Lab flow
 
@@ -68,6 +83,8 @@ cosine similarity: 0.8960
 
 Train a K-Nearest Neighbors classifier with **k = 5** on scaled numeric loan features.
 
+**Estimated time:** ~50 min
+
 ## Lab flow
 
 ```text
@@ -103,6 +120,8 @@ sample predictions (first 5): [1, 0, 1, 0, 1]
 
 Sweep candidate **k** values and pick the one with highest test accuracy.
 
+**Estimated time:** ~35 min
+
 ## Lab flow
 
 ```text
@@ -135,6 +154,8 @@ best k: 3 (accuracy 0.5900)
 ## Objective
 
 Expose the trained KNN model as a REST API and verify it with FastAPI's `TestClient` (no live server required for the lab script).
+
+**Estimated time:** ~55 min
 
 ## Lab flow
 
@@ -171,6 +192,8 @@ response body: {'default_probability': 0.2, 'default_label': 0}
 
 Use FeatureTools Deep Feature Synthesis (DFS) to auto-generate features from the loans entity set.
 
+**Estimated time:** ~50 min
+
 ## Lab flow
 
 ```text
@@ -206,6 +229,8 @@ top |corr| with default: int_rate: 0.2084
 ## Objective
 
 Log a KNN training run to MLflow and write a `metrics.json` artifact suitable for a classroom DVC demo.
+
+**Estimated time:** ~55 min
 
 ## Lab flow
 

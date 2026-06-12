@@ -1,6 +1,6 @@
 # Day 02 — Labs
 
-**Theme:** Python for Data Science | **Dataset:** [Zomato restaurants](../../data/zomato/zomato_restaurants.csv) (**500** rows)
+**Theme:** Python for Data Science | **Lab time (6 labs):** ~290 min (~4.8 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -25,6 +25,19 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 | Lab 5 | Model trained on **500** rows; intercept ≈ **3.72** |
 | Lab 6 | Test size = **100**; RMSE ≈ **0.69** |
 
+
+## Lab pacing
+
+| Lab | Est. time |
+|-----|-----------|
+| Lab 1 | ~40 min |
+| Lab 2 | ~45 min |
+| Lab 3 | ~55 min |
+| Lab 4 | ~50 min |
+| Lab 5 | ~50 min |
+| Lab 6 | ~50 min |
+| **Total** | **~290 min** |
+
 ---
 
 # Lab 1 — Python structures
@@ -32,6 +45,8 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 ## Objective
 
 Practice core Python data structures — lists, tuples, dictionaries, and sets — using restaurant-themed examples.
+
+**Estimated time:** ~40 min
 
 ## Lab flow
 
@@ -66,6 +81,8 @@ unique cuisines (set): ['Cafe', 'Chinese', 'North Indian']
 ## Objective
 
 Create NumPy arrays, apply vectorized math, and combine columns into a 2-D matrix.
+
+**Estimated time:** ~45 min
 
 ## Lab flow
 
@@ -102,6 +119,8 @@ column means [votes, cost]: [1392. 1290.]
 
 Load the Zomato restaurants CSV with Pandas and perform first-pass exploration.
 
+**Estimated time:** ~55 min
+
 ## Lab flow
 
 ```text
@@ -135,6 +154,8 @@ mean aggregate_rating: 3.70
 ## Objective
 
 Build exploratory plots with Seaborn — rating distribution and cost by city.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
@@ -171,6 +192,8 @@ top city by avg cost: Kolkata (1402)
 
 Fit ordinary least squares (OLS) linear regression to predict `aggregate_rating` from `votes` and `average_cost_for_two`.
 
+**Estimated time:** ~50 min
+
 ## Lab flow
 
 ```text
@@ -205,6 +228,8 @@ coefficients [votes, cost]: [0. -0.]
 ## Objective
 
 Split data into train/test sets and evaluate regression with **R²**, **MSE**, **MAE**, and **RMSE**.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 

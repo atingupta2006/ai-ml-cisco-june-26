@@ -1,6 +1,6 @@
 # Day 03 — Labs
 
-**Theme:** Classification & Model Interpretation | **Dataset:** [Lending Club sample](../../data/lending-club/lending_club_sample.csv) (**1,000** rows)
+**Theme:** Classification & Model Interpretation | **Lab time (6 labs):** ~305 min (~5.1 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -27,6 +27,19 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 | Lab 5 | Pipeline steps `preprocess`, `clf`; accuracy ≈ **0.64** |
 | Lab 6 | SHAP shape **(20, 5)**; top driver **int_rate** |
 
+
+## Lab pacing
+
+| Lab | Est. time |
+|-----|-----------|
+| Lab 1 | ~50 min |
+| Lab 2 | ~55 min |
+| Lab 3 | ~50 min |
+| Lab 4 | ~45 min |
+| Lab 5 | ~50 min |
+| Lab 6 | ~55 min |
+| **Total** | **~305 min** |
+
 ---
 
 # Lab 1 — Probability exercises
@@ -34,6 +47,8 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 ## Objective
 
 Connect observed default rates to probability, odds, and log-odds (logit) — the foundation of logistic regression.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
@@ -71,6 +86,8 @@ log-odds (logit): -0.0600
 
 Fit logistic regression to predict loan default from numeric borrower features.
 
+**Estimated time:** ~55 min
+
 ## Lab flow
 
 ```text
@@ -106,6 +123,8 @@ sample predictions: [1, 0, 1]
 ## Objective
 
 Evaluate classifier performance with confusion matrix, accuracy, precision, recall, and F1.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
@@ -144,6 +163,8 @@ F1: 0.5729
 
 Plot the ROC curve and compute area under the curve (AUC) for ranking ability across thresholds.
 
+**Estimated time:** ~45 min
+
 ## Lab flow
 
 ```text
@@ -178,6 +199,8 @@ plot saved: roc_curve.png
 
 Build an end-to-end `Pipeline` with `ColumnTransformer` for scaling numeric columns and one-hot encoding categoricals.
 
+**Estimated time:** ~50 min
+
 ## Lab flow
 
 ```text
@@ -211,6 +234,8 @@ test accuracy: 0.6350
 ## Objective
 
 Use SHAP values to explain which features drive individual default predictions.
+
+**Estimated time:** ~55 min
 
 ## Lab flow
 

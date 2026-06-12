@@ -1,6 +1,6 @@
 # Day 05 — Labs
 
-**Theme:** Unsupervised Learning | **Dataset:** [NYSE stocks](../../data/nyse/nyse_stocks.csv) (**500** daily rows, **25** symbols)
+**Theme:** Unsupervised Learning | **Lab time (6 labs):** ~280 min (~4.7 h)
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
@@ -27,6 +27,19 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 | Lab 5 | `multi_cluster_view.png` saved |
 | Lab 6 | **4** segments; sizes `{0:8, 1:9, 2:7, 3:1}` |
 
+
+## Lab pacing
+
+| Lab | Est. time |
+|-----|-----------|
+| Lab 1 | ~50 min |
+| Lab 2 | ~40 min |
+| Lab 3 | ~50 min |
+| Lab 4 | ~45 min |
+| Lab 5 | ~45 min |
+| Lab 6 | ~50 min |
+| **Total** | **~280 min** |
+
 ---
 
 # Lab 1 — K-Means baseline
@@ -34,6 +47,8 @@ Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01`
 ## Objective
 
 Apply K-Means clustering to per-symbol NYSE features with **k = 4**.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
@@ -71,6 +86,8 @@ cluster counts: {0: 8, 1: 9, 2: 7, 3: 1}
 
 Use the elbow method to estimate a reasonable **k** by plotting inertia across candidate values.
 
+**Estimated time:** ~40 min
+
 ## Lab flow
 
 ```text
@@ -103,6 +120,8 @@ suggested k (largest inertia drop): 3
 ## Objective
 
 Cluster the same symbol features with DBSCAN — a density-based method that can label noise points.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
@@ -139,6 +158,8 @@ label counts: {-1: 11, 0: 6, 1: 4, 2: 4}
 
 Evaluate K-Means clusters with silhouette score, Davies-Bouldin index, and Calinski-Harabasz score.
 
+**Estimated time:** ~45 min
+
 ## Lab flow
 
 ```text
@@ -174,6 +195,8 @@ Calinski-Harabasz score: 8.2627
 
 Visualize K-Means and DBSCAN assignments on the same scatter plot (avg_close vs volatility).
 
+**Estimated time:** ~45 min
+
 ## Lab flow
 
 ```text
@@ -207,6 +230,8 @@ plot saved: multi_cluster_view.png
 ## Objective
 
 Summarize K-Means segments with mean feature values and representative symbols per segment.
+
+**Estimated time:** ~50 min
 
 ## Lab flow
 
