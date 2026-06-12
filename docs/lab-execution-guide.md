@@ -33,7 +33,9 @@ jupyter lab
 
 In Jupyter: **Kernel → Change kernel → Python (cisco-aiml-lab)**.
 
-Day 1 Labs 1, 2, and 5 are discussion worksheets — kernel optional until you run code cells.
+**Day 1:** Work through `notebooks/lab01` … `lab06` **in order**. Labs 1, 2, and 5 are lighter worksheets; Labs 3, 4, and 6 are hands-on on `team_sales.csv` (Excel + pandas). Day 1 has **no student scripts** — notebooks only.
+
+**Days 2–6:** Notebooks are primary; optional `scripts/` mirrors exist for terminal users.
 
 ---
 
@@ -41,7 +43,7 @@ Day 1 Labs 1, 2, and 5 are discussion worksheets — kernel optional until you r
 
 1. Open the day folder under `hands-on/day-NN/`.
 2. Read `README.md` then `labs.md`.
-3. Run notebooks in `notebooks/` **or** scripts in `scripts/` in lab order (`lab01` … `lab06`).
+3. Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`). On Days 2–6 you may alternatively use `scripts/`.
 4. Compare outputs to **Example result** and **Success criteria** in each lab.
 
 ---

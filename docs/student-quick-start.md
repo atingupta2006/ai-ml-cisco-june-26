@@ -32,7 +32,7 @@ Read [lab execution guide](lab-execution-guide.md) before Lab 1.
 
 | Day | Folder | Notes |
 |-----|--------|-------|
-| 01 | [day-01](../hands-on/day-01/README.md) | Excel for Lab 6; worksheets Labs 1–2, 5 |
+| 01 | [day-01](../hands-on/day-01/README.md) | Labs 1→6 in order; hands-on Labs 3–4–6 on `team_sales.csv` (~7 h) |
 | 02 | [day-02](../hands-on/day-02/README.md) | Zomato 500 rows |
 | 03 | [day-03](../hands-on/day-03/README.md) | Lending Club classification |
 | 04 | [day-04](../hands-on/day-04/README.md) | KNN, FastAPI, MLflow |

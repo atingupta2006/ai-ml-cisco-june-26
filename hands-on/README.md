@@ -5,7 +5,7 @@ Six training days. Each day includes:
 - `README.md` — concepts and agenda
 - `labs.md` — six labs with objectives, tasks, success criteria
 - `notebooks/` — six core Jupyter labs (required)
-- `scripts/` — Python verification scripts
+- `scripts/` — optional Python mirrors (Days 2–6); **Day 1 is notebooks only**
 
 **Setup:** run `setup_student_env` once — see [lab execution guide](../docs/lab-execution-guide.md). Jupyter kernel: **Python (cisco-aiml-lab)**.
 

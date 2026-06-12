@@ -4,6 +4,8 @@
 
 **Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
 
+**Recommended order:** `lab01` → `lab02` → `lab03` → `lab04` → `lab05` → `lab06` (one narrative arc on `team_sales.csv`).
+
 ---
 
 ## Before every lab

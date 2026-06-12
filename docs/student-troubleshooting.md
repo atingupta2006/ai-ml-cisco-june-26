@@ -28,7 +28,7 @@ python -m ipykernel install --user --name cisco-aiml-lab --display-name "Python 
 | Day | Issue | Fix |
 |-----|-------|-----|
 | 01 | Excel stats differ from notebook | Use `STDEV.S`, all 20 rows |
-| 01 | Lab 6 pivot wrong | Pivot on `region`, not `team` |
+| 01 | Lab 6 pivot wrong | Pivot on `region`, not `team`; notebook is `lab06_excel_group_activity.ipynb` |
 | 04 | FastAPI deprecation warning | Ignore in class |
 | 04 | MLflow UI won’t open | See [mlflow-ui-demo-setup.md](mlflow-ui-demo-setup.md) |
 | 05 | “500 rows” vs 25 symbols | Labs cluster **25 symbols** (aggregated features) |

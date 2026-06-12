@@ -20,7 +20,7 @@
 ├── data/                 # lab datasets (500 / 1000 rows)
 └── hands-on/day-01 … day-06/
     ├── notebooks/        # core labs (required)
-    └── scripts/          # same labs as .py files
+    └── scripts/          # optional .py mirrors (Days 2–6; Day 1 notebooks only)
 ```
 
 ## Quick setup
